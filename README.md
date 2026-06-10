@@ -264,21 +264,21 @@ Sources:
 
 ## Evaluation Report
 
-| # | Question | Expected answer | Retrieved chunks | System response (summarized) | Retrieval quality | Response accuracy |
+| # | Question | Expected answer | Retrieved chunks | System actual response | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------|------------------------------|-------------------|-------------------|
-| 1 | Which course should I take if I want full stack web development projects? | EECS 485, because it covers front end/back end and has web projects. | EECS 485 homepage chunk 3; EECS 485 syllabus chunk 2; EECS 485/481 Reddit workload chunk 0 | Recommended EECS 485 for full-stack web applications and practical web engineering. | Relevant | Accurate |
-| 2 | EECS 388 security prerequisites EECS 281 EECS 370 | EECS 388 is the security course; EECS 281 is required and EECS 201/370 are recommended. | EECS 388 chunks 0, 3, 2 | Identified EECS 388 and included the EECS 281 required / EECS 201 and 370 recommended prerequisite info. | Relevant | Accurate |
-| 3 | EECS 281 algorithms projects graph search priority queues hash tables | EECS 281 covers algorithms and projects with graph search, priority queues, hash tables, and optimization. | EECS 281 homepage chunks 3 and 1; EECS 281 syllabus chunk 1 | Returned EECS 281 and listed graph search, priority queues, hash tables, and optimization projects. | Relevant | Accurate |
-| 4 | Who was the EECS 442 professor in 2025 winter term? | Stella Yu was the professor/instructor for EECS 442 Computer Vision in Winter 2025. | EECS 442 Winter 2025 Stella Yu teaching source chunk 0; ML instructor RMP chunk 2; EECS 370 homepage chunk 0 | Answered Stella Yu and cited the EECS 442 Winter 2025 teaching source. | Partially relevant | Accurate |
-| 5 | What math background does EECS 445 warn students need? | EECS 445 warns students need linear algebra and probability background. | EECS 388 chunks 2 and 3; EECS 376 Reddit learning chunk 0 | Incorrectly answered with EECS 388 prerequisite/security context instead of EECS 445 math background. | Off-target | Inaccurate |
+| 1 | Which course should I take if I want full stack web development projects? | EECS 485, because it covers front end/back end and has web projects. | EECS 485 homepage chunk 3; EECS 485 syllabus chunk 2; EECS 485/481 Reddit workload chunk 0 | "If you want to work on full-stack web development projects, you should take EECS 485." The response cited the EECS 485 homepage, EECS 485 syllabus, and Reddit workload notes. | Relevant | Accurate |
+| 2 | EECS 388 security prerequisites EECS 281 EECS 370 | EECS 388 is the security course; EECS 281 is required and EECS 201/370 are recommended. | EECS 388 chunks 0, 3, 2 | "To take EECS 388, the required prerequisite is EECS 281, and the recommended prerequisites are EECS 201 and EECS 370." | Relevant | Accurate |
+| 3 | EECS 281 algorithms projects graph search priority queues hash tables | EECS 281 covers algorithms and projects with graph search, priority queues, hash tables, and optimization. | EECS 281 homepage chunks 3 and 1; EECS 281 syllabus chunk 1 | "In EECS 281, you can expect to work on projects that involve graph search, priority queues, and hash tables." | Relevant | Accurate |
+| 4 | Who was the EECS 442 professor in 2025 winter term? | Stella Yu was the professor/instructor for EECS 442 Computer Vision in Winter 2025. | EECS 442 Winter 2025 Stella Yu teaching source chunk 0; ML instructor RMP chunk 2; EECS 370 homepage chunk 0 | "According to the EECS 442 Winter 2025 Stella Yu teaching source notes, the professor for EECS 442 in the 2025 Winter term was Stella Yu." | Partially relevant | Accurate |
+| 5 | What math background does EECS 445 warn students need? | EECS 445 warns students need linear algebra and probability background. | EECS 388 chunks 2 and 3; EECS 376 Reddit learning chunk 0 | "I don't have enough information in the collected documents to answer that." | Off-target | Inaccurate |
 
 ## Failure Case Analysis
 
 Question that failed: `What math background does EECS 445 warn students need?`
 
-What the system returned: it returned EECS 388 prerequisite/security context instead of the EECS 445 math warning.
+What the system returned: it refused with "I don't have enough information in the collected documents to answer that." The refusal was safer than hallucinating, but it still failed the test because the EECS 445 source actually contains the expected math-background information.
 
-Root cause: this was a retrieval failure. The embedding search treated "background" and "need" as a generic prerequisite or theory-preparation question and matched EECS 388 and EECS 376 chunks more strongly than the EECS 445 math chunk. The EECS 445 source did contain the right answer, but the query wording did not include the exact terms "linear algebra" or "probability."
+Root cause: this was a retrieval failure. The embedding search treated "background" and "need" as a generic prerequisite or theory-preparation question and matched EECS 388 and EECS 376 chunks more strongly than the EECS 445 math chunk. Because the relevant EECS 445 chunk was not retrieved, the grounded-generation step correctly refused instead of using outside knowledge.
 
 What I would change: I would add hybrid search with keyword matching for course numbers like "EECS 445" so that a query naming a course strongly prefers chunks from that course. I would also add metadata filtering by course number.
 
