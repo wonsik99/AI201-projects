@@ -1,0 +1,10 @@
+Title: EECS 445 Reddit class pairing discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1avscoh/how_is_eecs_445_classes_to_pair_with_it/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks how EECS 445 is and what classes pair well with it.
+
+The discussion frames EECS 445 as a machine learning course with moderate workload for some students, but also notes that related classes can complement it differently. One student suggests that an NLP or neural-network-focused course can pair well because EECS 445 may not go deeply into every neural network topic.
+
+For course selection, this source is useful for students interested in AI or ML planning. It supports describing EECS 445 as a core ML class, while reminding students to choose companion classes based on whether they want theory, applied frameworks, NLP, or deeper neural network material.

@@ -1,0 +1,10 @@
+Title: EECS 376 Reddit learning resources discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1gy7ih1/eecs_376_students_how_are_you_learning_the/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks how EECS 376 students are learning the material.
+
+The discussion says students can struggle because EECS 376 topics are specific and abstract, so generic outside resources do not always map cleanly to the course. Students mention reviewing homework solutions, using office hours, and needing repeated practice with difficult proof-style problems.
+
+For course selection, this source is useful for students deciding whether they like theory. EECS 376 may be a poor fit for someone who only wants coding projects, but a good fit for someone who wants algorithms, computability, complexity, and proof-based reasoning.

@@ -1,0 +1,10 @@
+Title: EECS 485 and EECS 481 Reddit workload comparison source notes
+Source URL: https://www.reddit.com/r/uofm/comments/15kvndb/eecs_485_481_workload_and_difficulty/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread compares EECS 485, EECS 481, and related upper-level CS courses.
+
+The discussion says EECS 485 may be the heaviest workload among the compared courses for some students, especially because of projects and exams. EECS 481 is described by one student as easier and more manageable, with projects that can be viewed or started ahead of time depending on the course setup.
+
+For course selection, this source is useful for students choosing between web systems and software engineering. It suggests EECS 481 may be a more manageable software-focused class, while EECS 485 is stronger for full-stack web systems but more project-intensive.

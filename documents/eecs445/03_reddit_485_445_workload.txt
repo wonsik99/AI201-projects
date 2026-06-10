@@ -1,0 +1,10 @@
+Title: EECS 485 and EECS 445 Reddit workload discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1s3xams/eecs485_eecs445_workload/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks about taking EECS 485 and EECS 445 together with one or two other LSA courses.
+
+The discussion is short, but it is useful as a schedule-planning source because the question itself reflects a common concern: EECS 485 has substantial web projects, while EECS 445 has math and machine learning assignments. A brief student response suggests the pairing can be okay, but the thread should be treated as anecdotal rather than a full workload guarantee.
+
+For course selection, this source supports answering pairing questions carefully. EECS 485 plus EECS 445 may be possible, but the safer advice is to consider programming background, math comfort, and the workload of the non-EECS classes.

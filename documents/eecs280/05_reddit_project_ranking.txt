@@ -1,0 +1,10 @@
+Title: EECS 280 Reddit project ranking discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/nayizd/how_are_the_eecs_280_projects_ranked/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks students to compare the difficulty of EECS 280 projects.
+
+The discussion is useful because it separates different kinds of project difficulty. Students mention that some projects are harder because the API or instructions feel less direct, while later projects can be harder conceptually. The thread also repeats common advice to go to office hours early instead of waiting until the deadline.
+
+For course selection, this source supports describing EECS 280 as project-heavy with uneven project difficulty. The hardest part may depend on the student's background: some struggle with concept complexity, while others struggle with interpreting APIs, debugging, or managing time.

@@ -1,0 +1,10 @@
+Title: EECS 489 Reddit experience discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1p8jka4/eecs_489_experience/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks about the EECS 489 student experience.
+
+The discussion describes EECS 489 as a good class with low-to-medium workload in one student's experience. The main value described is getting a useful overview of computer networks.
+
+For course selection, this source supports recommending EECS 489 to students who want networking knowledge without necessarily taking the heaviest systems class. It is especially relevant for students comparing networks against operating systems, databases, or web systems.

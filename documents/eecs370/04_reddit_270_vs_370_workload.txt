@@ -1,0 +1,10 @@
+Title: EECS 270 versus EECS 370 Reddit workload discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/rru85c/eecs_270_vs_370_workload/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread compares EECS 270 and EECS 370 workload.
+
+The discussion is useful because it gives a relative view of EECS 370. One student describes EECS 370 as lighter than EECS 280, while another notes that CSE students generally need EECS 370 for the degree path. This contrasts with other Reddit threads that warn not to underestimate EECS 370, which shows how much student experience can vary.
+
+For course selection, this source supports giving nuanced advice: EECS 370 may be lighter than some project-heavy CS courses for some students, but it still covers low-level material that can be unfamiliar and should not be ignored.

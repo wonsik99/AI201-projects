@@ -1,0 +1,10 @@
+Title: EECS 280 versus EECS 281 Reddit projects and autograder discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/a1edc6/eecs_280_vs_eecs_281_projectsautograder/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread compares EECS 280 and EECS 281 projects and grading.
+
+The discussion says EECS 281 can feel like a major step up from EECS 280 because there are fewer starter files, more design decisions, and performance requirements beyond basic correctness. Students mention that runtime and memory usage matter, so passing the autograder requires efficient implementations rather than only working code.
+
+For course selection, this source is useful for students who did well in EECS 280 but want to know what changes in EECS 281. It supports describing EECS 281 as more open-ended, more algorithmic, and more sensitive to starting early.

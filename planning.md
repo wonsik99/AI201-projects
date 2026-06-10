@@ -2,7 +2,7 @@
 
 ## Domain
 
-I chose University of Michigan CS/EECS course selection. My first idea was professor reviews, but those were hard to collect from in a reliable way, so I am focusing on course pages, syllabi, assignment pages, faculty teaching pages, and some public r/uofm threads that still help students decide what class fits them.
+I chose University of Michigan CS/EECS course selection. My first idea was professor reviews, but those were hard to collect from in a reliable way, so I am focusing on course pages, syllabi, assignment pages, faculty teaching pages, and public r/uofm threads that still help students decide what class fits them.
 
 This is useful because the official course catalog is usually too short. It might say a course is "web systems" or "computer organization," but it does not quickly show what projects students build, what prerequisites matter, whether the class is project-heavy, or what kind of student the course is good for.
 
@@ -45,6 +45,27 @@ I saved the sources as cleaned `.txt` files in `documents/`, grouped by EECS num
 33. https://www.reddit.com/r/uofm/comments/uzdwqh/how_doable_is_eecs_370_and_eecs_376_for_fall/
 34. https://www.reddit.com/r/uofm/comments/1mbzdyk/should_i_take_eecs_482/
 35. https://www.reddit.com/r/uofm/comments/1hkyd62/eecs_485_web_systems_course_recommendationhonest/
+36. https://www.reddit.com/r/uofm/comments/nxnp7k/preparing_for_eecs_203_and_eecs_280/
+37. https://www.reddit.com/r/uofm/comments/17pgslq/eecs_280_calc_2_eecs_203_at_the_same_time/
+38. https://www.reddit.com/r/uofm/comments/151lctq/eecs_280_rigor/
+39. https://www.reddit.com/r/uofm/comments/6ycvju/eecs_280_workload/
+40. https://www.reddit.com/r/uofm/comments/nayizd/how_are_the_eecs_280_projects_ranked/
+41. https://www.reddit.com/r/uofm/comments/1dc4yi0/the_lazy_students_guide_to_eecs_281/
+42. https://www.reddit.com/r/uofm/comments/a1edc6/eecs_280_vs_eecs_281_projectsautograder/
+43. https://www.reddit.com/r/uofm/comments/l6nx27/how_bad_is_eecs_281/
+44. https://www.reddit.com/r/uofm/comments/rru85c/eecs_270_vs_370_workload/
+45. https://www.reddit.com/r/uofm/comments/4gm8wf/what_class_to_take_with_eecs_370/
+46. https://www.reddit.com/r/uofm/comments/1ki1vy8/classes_to_take_with_eecs_376/
+47. https://www.reddit.com/r/uofm/comments/lcsvga/eecs_376_sad/
+48. https://www.reddit.com/r/uofm/comments/1gy7ih1/eecs_376_students_how_are_you_learning_the/
+49. https://www.reddit.com/r/uofm/comments/620fjd/thoughts_on_eecs388/
+50. https://www.reddit.com/r/uofm/comments/1n24wo6/eecs_388_vs_485/
+51. https://www.reddit.com/r/uofm/comments/1avscoh/how_is_eecs_445_classes_to_pair_with_it/
+52. https://www.reddit.com/r/uofm/comments/1s3xams/eecs485_eecs445_workload/
+53. https://www.reddit.com/r/uofm/comments/15kvndb/eecs_485_481_workload_and_difficulty/
+54. https://www.reddit.com/r/uofm/comments/1p8jka4/eecs_489_experience/
+55. https://www.reddit.com/r/uofm/comments/1aw8754/eecs493/
+56. https://www.reddit.com/r/uofm/comments/1fuh8y0/eecs_494_questions/
 
 ## Chunking Strategy
 

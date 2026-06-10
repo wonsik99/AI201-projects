@@ -1,0 +1,10 @@
+Title: EECS 388 versus EECS 485 Reddit discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1n24wo6/eecs_388_vs_485/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread compares EECS 388 and EECS 485.
+
+The discussion suggests EECS 388 projects may not always require huge amounts of code, but they can be conceptually confusing until the security idea clicks. Students also mention that EECS 388 lectures can feel hard to follow early in the semester because the course covers a lot of content.
+
+For course selection, this source is useful when a student is deciding between security and web systems. EECS 388 is more security-concept focused, while EECS 485 is usually more web-project and implementation focused.

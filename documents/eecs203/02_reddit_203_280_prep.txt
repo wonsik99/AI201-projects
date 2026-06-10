@@ -1,0 +1,10 @@
+Title: EECS 203 and EECS 280 Reddit preparation discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/nxnp7k/preparing_for_eecs_203_and_eecs_280/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks how to prepare for taking EECS 203 and EECS 280, especially when the student does not feel very confident in C++ yet.
+
+The discussion is useful because it treats EECS 203 and EECS 280 as a common early CS pairing. The general advice is to review enough C++ to be comfortable with syntax and basic programming, but not to panic or try to learn the whole course ahead of time. For EECS 280, students emphasize starting projects early, using the course website, and going to office hours when stuck.
+
+For course selection, this source suggests that EECS 203 plus EECS 280 is possible, but it should be treated as a serious technical schedule. It is especially relevant for students who placed out of EECS 183 or have uneven C++ preparation.

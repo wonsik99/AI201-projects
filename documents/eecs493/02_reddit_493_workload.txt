@@ -1,0 +1,10 @@
+Title: EECS 493 Reddit workload discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1aw8754/eecs493/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks about EECS 493 workload after course changes.
+
+The discussion says EECS 493 may no longer be as extremely low-workload as older students claimed, but it still may not be much higher than a lighter upper-level class for students with JavaScript familiarity. One comment says some assignments were split to make the class more manageable.
+
+For course selection, this source is useful because EECS 493 has a reputation that may lag behind course changes. The guide should say it can be a good UI/UX choice, but students should not rely only on old "easy A" comments.

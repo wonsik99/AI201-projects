@@ -1,0 +1,10 @@
+Title: EECS 280 Reddit workload and tools discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/6ycvju/eecs_280_workload/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks how hard EECS 280 is for a student who has not taken EECS 183 at Michigan and is choosing between Windows and Mac for development.
+
+The discussion highlights practical setup issues that do not always show up in official course descriptions. Students mention test-driven development, C++ syntax, command-line compiling, makefiles, and the need to start projects early. Some comments suggest Mac or Linux-like environments can be easier than Windows if the student is not already comfortable setting up compilers.
+
+For course selection, this source is useful because it shows EECS 280 is not only about programming concepts. Students also need to handle a development workflow, testing style, and project deadlines.

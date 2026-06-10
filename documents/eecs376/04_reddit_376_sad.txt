@@ -1,0 +1,10 @@
+Title: EECS 376 Reddit difficulty discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/lcsvga/eecs_376_sad/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread is a student discussion about struggling in EECS 376.
+
+The discussion is useful because it shows the emotional and practical difficulty of theory-heavy EECS work. Students mention homework taking a lot of office hour time and describe the class as part of the difficult core stretch with EECS 370 and EECS 376. Some comments also suggest later upper-level courses may feel lighter depending on the course choices.
+
+For course selection, this source helps the guide answer questions about why EECS 376 feels hard. The issue is not only volume of work, but also abstract material, homework style, and needing help to get unstuck.

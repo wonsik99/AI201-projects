@@ -1,0 +1,10 @@
+Title: EECS 203, EECS 280, and Calc 2 Reddit schedule discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/17pgslq/eecs_280_calc_2_eecs_203_at_the_same_time/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread discusses a schedule with EECS 280, EECS 203, and Calculus 2 in the same term.
+
+The thread is useful for workload planning because students describe that combination as a heavy schedule. The discussion frames EECS 280 and EECS 203 as classes that both require steady weekly work: EECS 280 through programming projects and exams, and EECS 203 through discrete math and proof-style practice.
+
+For course selection, this source supports warning students not to add too many extra demanding classes around EECS 203 and EECS 280. It does not prove the schedule is impossible, but it gives a realistic caution for first-year or transfer students building a semester plan.

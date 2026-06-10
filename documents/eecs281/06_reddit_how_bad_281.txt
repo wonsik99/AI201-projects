@@ -1,0 +1,10 @@
+Title: EECS 281 Reddit difficulty discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/l6nx27/how_bad_is_eecs_281/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks how bad EECS 281 is.
+
+The discussion describes a workload that can vary by preparation level. Students mention that projects take real time, but exams can be the hardest part because they require efficient algorithm reasoning and C++ fluency. The thread also suggests that getting a solid grade and getting a very high grade can feel like different goals.
+
+For course selection, this source is useful because it explains why EECS 281 has a difficult reputation even when some students say the projects are manageable. Students should plan for both project implementation and exam-style algorithm thinking.

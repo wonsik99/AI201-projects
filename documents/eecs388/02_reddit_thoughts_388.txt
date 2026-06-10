@@ -1,0 +1,10 @@
+Title: EECS 388 Reddit general thoughts source notes
+Source URL: https://www.reddit.com/r/uofm/comments/620fjd/thoughts_on_eecs388/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks for thoughts on EECS 388.
+
+The discussion describes EECS 388 as an interesting security survey course with relatively low workload in that student's experience. The same discussion says the course covers many security areas, which can make it feel broad rather than deeply focused on one hard skill.
+
+For course selection, this source supports recommending EECS 388 to students who want a broad introduction to computer security. It also helps set expectations that the course may be more of a survey than a deep specialization class.

@@ -1,0 +1,10 @@
+Title: EECS 494 Reddit questions source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1fuh8y0/eecs_494_questions/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks questions about EECS 494 game design.
+
+The discussion describes EECS 494 as a heavy class and warns against pairing it with other very high-workload courses. It also suggests that learning some Unity before the class can help.
+
+For course selection, this source supports describing EECS 494 as a strong fit for students who specifically want game development and team project work, but not as a casual low-workload elective. Students should plan around the project time and game engine learning curve.

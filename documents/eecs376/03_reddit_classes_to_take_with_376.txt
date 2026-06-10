@@ -1,0 +1,10 @@
+Title: EECS 376 Reddit class pairing discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1ki1vy8/classes_to_take_with_eecs_376/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks what classes are reasonable to take with EECS 376.
+
+The discussion warns that pairing EECS 376 with other core EECS classes such as EECS 281 or EECS 370 can create a stressful semester because deadlines and workload can line up badly. One student describes EECS 376 as conceptually difficult and says the weekly homework can take several hours even when the topic is understood.
+
+For course selection, this source supports telling students that EECS 376 should be scheduled carefully. It is not just about total credits; the problem is also deadline overlap, proof-heavy thinking, and sustained weekly homework.

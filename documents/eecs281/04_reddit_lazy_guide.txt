@@ -1,0 +1,10 @@
+Title: EECS 281 Reddit lazy student guide source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1dc4yi0/the_lazy_students_guide_to_eecs_281/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread is an informal guide about surviving EECS 281.
+
+The discussion describes EECS 281 as a course where workload depends heavily on the student's goals. Trying to perfect every assignment can create a heavy workload, while aiming for minimum competency changes the strategy. The thread also points to lab requirements, project planning, and exam preparation as important parts of the course.
+
+For course selection, this source is useful because it shows why EECS 281 advice varies so much. A student aiming for a high grade may experience the class very differently from a student trying to pass efficiently.

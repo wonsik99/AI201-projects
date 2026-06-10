@@ -4,11 +4,11 @@ This project is a small RAG system for choosing University of Michigan CS/EECS c
 
 ## Domain
 
-My domain is UMich CS/EECS course selection. I originally wanted to focus only on professor reviews, but Rate My Professors was not reliable to collect from automatically. I narrowed the system to public student-facing course materials: course homepages, syllabi, assignment pages, faculty teaching pages, and a few public r/uofm discussion threads. This is useful because official course catalog descriptions are short, while course sites and student discussions show what students actually have to do: projects, exams, prerequisites, tools, staff, instructor history, workload, and course structure.
+My domain is UMich CS/EECS course selection. I originally wanted to focus only on professor reviews, but Rate My Professors was not reliable to collect from automatically. I narrowed the system to public student-facing course materials: course homepages, syllabi, assignment pages, faculty teaching pages, and public r/uofm discussion threads. This is useful because official course catalog descriptions are short, while course sites and student discussions show what students actually have to do: projects, exams, prerequisites, tools, staff, instructor history, workload, and course structure.
 
 ## Document Sources
 
-I collected 27 source documents as cleaned `.txt` notes under `documents/`, organized by EECS course number.
+I collected 48 source documents as cleaned `.txt` notes under `documents/`, organized by EECS course number.
 
 | # | Source | Type | URL or file path |
 |---|--------|------|------------------|
@@ -39,6 +39,27 @@ I collected 27 source documents as cleaned `.txt` notes under `documents/`, orga
 | 25 | EECS 370 and 376 schedule discussion | Reddit r/uofm thread | `documents/eecs376/02_reddit_370_376_combo.txt`, https://www.reddit.com/r/uofm/comments/uzdwqh/how_doable_is_eecs_370_and_eecs_376_for_fall/ |
 | 26 | EECS 482 course decision discussion | Reddit r/uofm thread | `documents/eecs482/02_reddit_should_take.txt`, https://www.reddit.com/r/uofm/comments/1mbzdyk/should_i_take_eecs_482/ |
 | 27 | EECS 485 student recommendation discussion | Reddit r/uofm thread | `documents/eecs485/03_reddit_recommendation.txt`, https://www.reddit.com/r/uofm/comments/1hkyd62/eecs_485_web_systems_course_recommendationhonest/ |
+| 28 | EECS 203 and 280 preparation discussion | Reddit r/uofm thread | `documents/eecs203/02_reddit_203_280_prep.txt`, https://www.reddit.com/r/uofm/comments/nxnp7k/preparing_for_eecs_203_and_eecs_280/ |
+| 29 | EECS 203, EECS 280, and Calc 2 schedule discussion | Reddit r/uofm thread | `documents/eecs203/03_reddit_203_280_calc_schedule.txt`, https://www.reddit.com/r/uofm/comments/17pgslq/eecs_280_calc_2_eecs_203_at_the_same_time/ |
+| 30 | EECS 280 rigor discussion | Reddit r/uofm thread | `documents/eecs280/03_reddit_rigor.txt`, https://www.reddit.com/r/uofm/comments/151lctq/eecs_280_rigor/ |
+| 31 | EECS 280 workload and tools discussion | Reddit r/uofm thread | `documents/eecs280/04_reddit_workload_tools.txt`, https://www.reddit.com/r/uofm/comments/6ycvju/eecs_280_workload/ |
+| 32 | EECS 280 project ranking discussion | Reddit r/uofm thread | `documents/eecs280/05_reddit_project_ranking.txt`, https://www.reddit.com/r/uofm/comments/nayizd/how_are_the_eecs_280_projects_ranked/ |
+| 33 | EECS 281 informal survival guide | Reddit r/uofm thread | `documents/eecs281/04_reddit_lazy_guide.txt`, https://www.reddit.com/r/uofm/comments/1dc4yi0/the_lazy_students_guide_to_eecs_281/ |
+| 34 | EECS 280 versus EECS 281 project/autograder discussion | Reddit r/uofm thread | `documents/eecs281/05_reddit_281_vs_280_autograder.txt`, https://www.reddit.com/r/uofm/comments/a1edc6/eecs_280_vs_eecs_281_projectsautograder/ |
+| 35 | EECS 281 difficulty discussion | Reddit r/uofm thread | `documents/eecs281/06_reddit_how_bad_281.txt`, https://www.reddit.com/r/uofm/comments/l6nx27/how_bad_is_eecs_281/ |
+| 36 | EECS 270 versus EECS 370 workload discussion | Reddit r/uofm thread | `documents/eecs370/04_reddit_270_vs_370_workload.txt`, https://www.reddit.com/r/uofm/comments/rru85c/eecs_270_vs_370_workload/ |
+| 37 | EECS 370 class pairing discussion | Reddit r/uofm thread | `documents/eecs370/05_reddit_class_to_take_with_370.txt`, https://www.reddit.com/r/uofm/comments/4gm8wf/what_class_to_take_with_eecs_370/ |
+| 38 | EECS 376 class pairing discussion | Reddit r/uofm thread | `documents/eecs376/03_reddit_classes_to_take_with_376.txt`, https://www.reddit.com/r/uofm/comments/1ki1vy8/classes_to_take_with_eecs_376/ |
+| 39 | EECS 376 difficulty discussion | Reddit r/uofm thread | `documents/eecs376/04_reddit_376_sad.txt`, https://www.reddit.com/r/uofm/comments/lcsvga/eecs_376_sad/ |
+| 40 | EECS 376 learning resources discussion | Reddit r/uofm thread | `documents/eecs376/05_reddit_learning_376.txt`, https://www.reddit.com/r/uofm/comments/1gy7ih1/eecs_376_students_how_are_you_learning_the/ |
+| 41 | EECS 388 general thoughts discussion | Reddit r/uofm thread | `documents/eecs388/02_reddit_thoughts_388.txt`, https://www.reddit.com/r/uofm/comments/620fjd/thoughts_on_eecs388/ |
+| 42 | EECS 388 versus EECS 485 discussion | Reddit r/uofm thread | `documents/eecs388/03_reddit_388_vs_485.txt`, https://www.reddit.com/r/uofm/comments/1n24wo6/eecs_388_vs_485/ |
+| 43 | EECS 445 class pairing discussion | Reddit r/uofm thread | `documents/eecs445/02_reddit_445_pairing.txt`, https://www.reddit.com/r/uofm/comments/1avscoh/how_is_eecs_445_classes_to_pair_with_it/ |
+| 44 | EECS 485 and EECS 445 workload discussion | Reddit r/uofm thread | `documents/eecs445/03_reddit_485_445_workload.txt`, https://www.reddit.com/r/uofm/comments/1s3xams/eecs485_eecs445_workload/ |
+| 45 | EECS 485 and EECS 481 workload comparison | Reddit r/uofm thread | `documents/eecs481/02_reddit_485_481_workload.txt`, https://www.reddit.com/r/uofm/comments/15kvndb/eecs_485_481_workload_and_difficulty/ |
+| 46 | EECS 489 experience discussion | Reddit r/uofm thread | `documents/eecs489/02_reddit_489_experience.txt`, https://www.reddit.com/r/uofm/comments/1p8jka4/eecs_489_experience/ |
+| 47 | EECS 493 workload discussion | Reddit r/uofm thread | `documents/eecs493/02_reddit_493_workload.txt`, https://www.reddit.com/r/uofm/comments/1aw8754/eecs493/ |
+| 48 | EECS 494 questions discussion | Reddit r/uofm thread | `documents/eecs494/02_reddit_494_questions.txt`, https://www.reddit.com/r/uofm/comments/1fuh8y0/eecs_494_questions/ |
 
 ## Pipeline
 
@@ -61,7 +82,7 @@ Chunking method: paragraph-aware character chunks.
 
 - Chunk size: 750 characters
 - Overlap: about 150 characters, implemented as paragraph/sentence-aware overlap instead of cutting in the middle of words
-- Final chunk count: 76 chunks
+- Final chunk count: 99 chunks
 
 I used 750 characters because my documents are short cleaned notes, not long PDFs. A smaller chunk keeps one course feature together, such as "EECS 485 has five projects" or "EECS 388 requires EECS 281." I used overlap because course names and details sometimes sit in adjacent paragraphs. I also changed the chunker after inspection because the first version split words in the middle, which made sample chunks look messy.
 
@@ -113,9 +134,9 @@ Top returned chunks:
 
 1. EECS 485 course homepage source notes, chunk 3, distance 0.422: says EECS 485 is a good match for full-stack applications and practical web engineering.
 2. EECS 485 syllabus source notes, chunk 2, distance 0.433: says EECS 485 is good for full-stack web systems, distributed systems basics, and search-engine implementation.
-3. EECS 280 syllabus source notes, chunk 2, distance 0.486: mentions larger programming assignments, but is less specific than EECS 485.
+3. EECS 485 and EECS 481 Reddit workload comparison source notes, chunk 0, distance 0.462: says EECS 485 may be heavier and more project-intensive than EECS 481.
 
-Why relevant: the top two chunks directly answer the query by naming EECS 485 and explaining the web/full-stack project fit.
+Why relevant: the top two chunks directly answer the query by naming EECS 485 and explaining the web/full-stack project fit. The third chunk adds student workload context for the same course.
 
 ### Retrieval Test 2
 
@@ -226,19 +247,19 @@ Sources:
 
 | # | Question | Expected answer | Retrieved chunks | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------|------------------------------|-------------------|-------------------|
-| 1 | Which course should I take if I want full stack web development projects? | EECS 485, because it covers front end/back end and has web projects. | EECS 485 homepage chunk 3; EECS 485 syllabus chunk 2; EECS 280 syllabus chunk 2 | Recommended EECS 485 for full-stack web applications and practical web engineering. | Relevant | Accurate |
+| 1 | Which course should I take if I want full stack web development projects? | EECS 485, because it covers front end/back end and has web projects. | EECS 485 homepage chunk 3; EECS 485 syllabus chunk 2; EECS 485/481 Reddit workload chunk 0 | Recommended EECS 485 for full-stack web applications and practical web engineering. | Relevant | Accurate |
 | 2 | EECS 388 security prerequisites EECS 281 EECS 370 | EECS 388 is the security course; EECS 281 is required and EECS 201/370 are recommended. | EECS 388 chunks 0, 3, 2 | Identified EECS 388 and included the EECS 281 required / EECS 201 and 370 recommended prerequisite info. | Relevant | Accurate |
 | 3 | EECS 281 algorithms projects graph search priority queues hash tables | EECS 281 covers algorithms and projects with graph search, priority queues, hash tables, and optimization. | EECS 281 homepage chunks 3 and 1; EECS 281 syllabus chunk 1 | Returned EECS 281 and listed graph search, priority queues, hash tables, and optimization projects. | Relevant | Accurate |
 | 4 | Who was the EECS 442 professor in 2025 winter term? | Stella Yu was the professor/instructor for EECS 442 Computer Vision in Winter 2025. | EECS 442 Winter 2025 Stella Yu teaching source chunk 0; EECS 370 homepage chunk 0; EECS 485 homepage chunk 0 | Answered Stella Yu and cited the EECS 442 Winter 2025 teaching source. | Relevant | Accurate |
-| 5 | What math background does EECS 445 warn students need? | EECS 445 warns students need linear algebra and probability background. | EECS 388 chunk 2; EECS 281 chunk 4; EECS 280 chunk 2 | Incorrectly answered with EECS 388 prerequisites instead of EECS 445 math background. | Off-target | Inaccurate |
+| 5 | What math background does EECS 445 warn students need? | EECS 445 warns students need linear algebra and probability background. | EECS 388 chunks 2 and 3; EECS 376 Reddit learning chunk 0 | Incorrectly answered with EECS 388 prerequisite/security context instead of EECS 445 math background. | Off-target | Inaccurate |
 
 ## Failure Case Analysis
 
 Question that failed: `What math background does EECS 445 warn students need?`
 
-What the system returned: it returned EECS 388 prerequisites: EECS 281 required and EECS 201/370 recommended.
+What the system returned: it returned EECS 388 prerequisite/security context instead of the EECS 445 math warning.
 
-Root cause: this was a retrieval failure. The embedding search treated "background" and "need" as a generic prerequisite question and matched the EECS 388 prerequisite chunk more strongly than the EECS 445 math chunk. The EECS 445 source did contain the right answer, but the query wording did not include the exact terms "linear algebra" or "probability."
+Root cause: this was a retrieval failure. The embedding search treated "background" and "need" as a generic prerequisite or theory-preparation question and matched EECS 388 and EECS 376 chunks more strongly than the EECS 445 math chunk. The EECS 445 source did contain the right answer, but the query wording did not include the exact terms "linear algebra" or "probability."
 
 What I would change: I would add hybrid search with keyword matching for course numbers like "EECS 445" so that a query naming a course strongly prefers chunks from that course. I would also add metadata filtering by course number.
 
@@ -246,7 +267,7 @@ What I would change: I would add hybrid search with keyword matching for course 
 
 One way the spec helped me during implementation: writing the chunk size and top-k before coding made it easier to check whether the pipeline matched the plan. When the first chunk output had words cut in half, I could compare it against my own chunking goal and fix the chunker instead of pretending it was fine.
 
-One way my implementation diverged from the spec, and why: I first planned to use professor-review pages from Rate My Professors and Reddit, but Rate My Professors was not reliable to collect automatically and broad professor-review content was uneven. I changed the document set to public course pages, syllabi, faculty pages, and a smaller set of public r/uofm course-discussion threads. This makes the system better for course selection than subjective professor ratings alone.
+One way my implementation diverged from the spec, and why: I first planned to use professor-review pages from Rate My Professors and Reddit, but Rate My Professors was not reliable to collect automatically and broad professor-review content was uneven. I changed the document set to public course pages, syllabi, faculty pages, and public r/uofm course-discussion threads. This makes the system better for course selection than subjective professor ratings alone.
 
 ## AI Usage
 
@@ -265,7 +286,7 @@ One way my implementation diverged from the spec, and why: I first planned to us
 **Instance 3**
 
 - What I gave the AI: I asked it to expand the source set and organize the files by EECS course number.
-- What it produced: Additional cleaned source notes for courses like EECS 203, 285, 376, 441, 473, 481, 482, 489, 492, 493, and 494, plus a recursive document loader and a few Reddit discussion notes.
+- What it produced: Additional cleaned source notes for courses like EECS 203, 285, 376, 441, 473, 481, 482, 489, 492, 493, and 494, plus a recursive document loader and expanded Reddit discussion notes.
 - What I changed or overrode: I kept the source notes tied to public URLs, kept Reddit notes framed as student anecdotes, kept the source files grouped by course folder, rebuilt the index, and reran retrieval tests to make sure the larger corpus still returned grounded answers.
 
 ## How to Run

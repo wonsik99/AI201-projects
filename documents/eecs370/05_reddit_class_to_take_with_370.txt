@@ -1,0 +1,10 @@
+Title: EECS 370 Reddit class pairing discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/4gm8wf/what_class_to_take_with_eecs_370/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks what class to take with EECS 370.
+
+The discussion includes older student advice that EECS 370 can be lower workload than some other EECS classes, with projects that may take only a few days for prepared students. The thread also recommends choosing another upper-level course based on interest, while recognizing that course workloads and offerings can change over time.
+
+For course selection, this source is useful mostly as a historical workload anecdote. It should not override newer sources, but it helps the guide show that EECS 370 workload opinions are mixed.

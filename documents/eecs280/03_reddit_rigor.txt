@@ -1,0 +1,10 @@
+Title: EECS 280 Reddit rigor discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/151lctq/eecs_280_rigor/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks about EECS 280 rigor and workload for a student who has C++ credit but does not remember all of the data structure material.
+
+Several responses say the class is manageable if the student watches lectures, starts projects as soon as they are released, and uses office hours. One student describes the workload as high, but mostly coding-project work rather than random busywork. Another response says previous exposure to pointers, maps, trees, ADTs, polymorphism, abstraction, and basic C++ helps, but heavy summer preparation is not always necessary.
+
+For course selection, this source is useful for students deciding whether they are ready for EECS 280 after transfer or AP-style preparation. It suggests that the class rewards steady project work and resource use more than pre-learning every topic before the semester.
