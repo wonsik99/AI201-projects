@@ -1,0 +1,12 @@
+Title: EECS 370 and EECS 485 Reddit workload discussion source notes
+Source URLs: https://www.reddit.com/r/uofm/comments/rwpiyv/eecs_workload_check/ ; https://www.reddit.com/r/uofm/comments/162bmcv/words_of_wisdomadvice_on_eecs_370_485_and_how_to/
+Source Type: Reddit r/uofm threads / cleaned discussion notes
+Date Collected: 2026-06-10
+
+These r/uofm threads discuss taking EECS 370 and EECS 485 together and how students experienced the workload.
+
+One workload-check discussion says students should not underestimate EECS 370. A commenter says the projects may look short, but the class can still be tough because homework and projects require understanding low-level mechanisms. Another comment says EECS 485 projects are very time-consuming and often require searching or learning tools beyond what is directly explained.
+
+In the advice thread about EECS 370 plus EECS 485, one student says EECS 370 projects can be tricky at first, but once the mechanism is understood they can sometimes be finished quickly. The same thread includes advice to use office hours. Another comment says doing two project-based courses together can be manageable but time-consuming, especially because EECS 485 group work needs scheduled time.
+
+For course selection, this source is useful for workload pairing questions. It suggests that EECS 370 plus EECS 485 is possible, but students should expect project deadlines, office hours, and time management to matter.

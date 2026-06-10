@@ -1,0 +1,12 @@
+Title: EECS 370 and EECS 376 Reddit combo discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/uzdwqh/how_doable_is_eecs_370_and_eecs_376_for_fall/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks whether taking EECS 370 and EECS 376 together in the fall is doable.
+
+The responses describe the combination as fairly standard for some students, but not effortless. One reply says not to procrastinate on EECS 370. Another describes the combination as doable with two other courses, but says EECS 376 is not easy, EECS 370 homework can be annoying but useful for exam preparation, and exams in both classes can be rough.
+
+The thread also notes that deadline overlap can create stress. One comment contrasts the two courses by saying one is project-based while the other is mostly homework and exams.
+
+For course selection, this source helps answer schedule-planning questions. EECS 370 plus EECS 376 can be doable, but students should expect exam difficulty and overlapping deadlines rather than assuming the pair is light.

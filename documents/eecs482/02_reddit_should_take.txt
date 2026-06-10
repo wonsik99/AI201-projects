@@ -1,0 +1,10 @@
+Title: EECS 482 Reddit course decision source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1mbzdyk/should_i_take_eecs_482/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks whether a student should take EECS 482 while also considering EECS 489 and other upper-level CE/CS requirements.
+
+The original question says the student has heard EECS 482 is hard and has heavy workload, but also thinks it may be helpful for software development. One response says the class can be difficult but worth taking, and compares EECS 489 as lighter in that student's experience. Another response says the value depends on career goals and says the commenter personally has not used much of the operating systems material in later programming work.
+
+For course selection, this source is useful because it shows mixed student advice. EECS 482 may be valuable and respected, especially for systems-oriented students, but it is not automatically the best choice for every software career goal. It also supports warning students that workload and schedule conflicts matter.

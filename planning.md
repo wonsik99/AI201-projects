@@ -2,7 +2,7 @@
 
 ## Domain
 
-I chose University of Michigan CS/EECS course selection. My first idea was professor reviews, but the public review sites were hard to collect from in a reliable way, so I am focusing on course pages, syllabi, assignment pages, and faculty teaching pages that still help students decide what class fits them.
+I chose University of Michigan CS/EECS course selection. My first idea was professor reviews, but those were hard to collect from in a reliable way, so I am focusing on course pages, syllabi, assignment pages, faculty teaching pages, and some public r/uofm threads that still help students decide what class fits them.
 
 This is useful because the official course catalog is usually too short. It might say a course is "web systems" or "computer organization," but it does not quickly show what projects students build, what prerequisites matter, whether the class is project-heavy, or what kind of student the course is good for.
 
@@ -39,6 +39,12 @@ I saved the sources as cleaned `.txt` files in `documents/`, grouped by EECS num
 27. https://laura-burdick.github.io/papers/SyllabusEECS492Winter2023.pdf
 28. https://eecs493staff.github.io/eecs493.org/
 29. https://www.eecs494.com/eecs_494_syllabus/eecs_494_syllabus.html
+30. https://www.reddit.com/r/uofm/comments/1q9d894/eecs_281_workload_questions/
+31. https://www.reddit.com/r/uofm/comments/rwpiyv/eecs_workload_check/
+32. https://www.reddit.com/r/uofm/comments/162bmcv/words_of_wisdomadvice_on_eecs_370_485_and_how_to/
+33. https://www.reddit.com/r/uofm/comments/uzdwqh/how_doable_is_eecs_370_and_eecs_376_for_fall/
+34. https://www.reddit.com/r/uofm/comments/1mbzdyk/should_i_take_eecs_482/
+35. https://www.reddit.com/r/uofm/comments/1hkyd62/eecs_485_web_systems_course_recommendationhonest/
 
 ## Chunking Strategy
 
@@ -72,7 +78,7 @@ Production tradeoff reflection: For this class project I chose MiniLM because it
 
 2. Retrieval might confuse prerequisite questions across courses. For example, "what background do I need" could match EECS 388 prerequisites even if the user meant EECS 445. Course-number metadata filtering would help.
 
-3. Cleaned notes are easier to retrieve than raw HTML, but they are less unofficial than Reddit or Rate My Professors. I need to be honest about that in the README.
+3. Reddit comments are useful because they are more unofficial, but they are also subjective. I should treat them as student anecdotes, not guaranteed facts.
 
 ## Architecture
 

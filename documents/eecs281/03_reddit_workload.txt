@@ -1,0 +1,12 @@
+Title: EECS 281 Reddit workload discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1q9d894/eecs_281_workload_questions/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm thread asks former EECS 281 students how many hours they spent per week, how much time projects took, and how much workload labs added.
+
+The discussion gives a range rather than one single workload number. One reply describes about 7-12 hours per week outside exam weeks. Another says the course differs by person but estimates about 10-15 hours per week, recommends starting projects early, and says office hours can save time when stuck. The same reply estimates some labs around 2-4 hours including lab meeting time.
+
+Another student reports a much heavier summer workload, around 30-40 hours per week, and says the class was fun but a lot of work. That makes this source useful because it shows that term length and student background can change workload a lot.
+
+For course selection, this source supports describing EECS 281 as high workload, especially around projects and exams. It also supports advising students to start projects early and use office hours.

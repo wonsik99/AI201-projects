@@ -1,0 +1,12 @@
+Title: EECS 485 Reddit recommendation discussion source notes
+Source URL: https://www.reddit.com/r/uofm/comments/1hkyd62/eecs_485_web_systems_course_recommendationhonest/
+Source Type: Reddit r/uofm thread / cleaned discussion notes
+Date Collected: 2026-06-10
+
+This r/uofm post is a student recommendation and reaction after taking EECS 485 Web Systems.
+
+The post says EECS 485 made the student feel more competent as a software engineer and that the projects helped in conversational technical interviews. The student specifically points to a full-stack Instagram clone project as something they could discuss with employers. The post recommends the course for students who want software engineering experience and do not already have many personal projects.
+
+The same post also gives a limitation: students who already have strong web or internet experience may find the course less rewarding. It also describes the class as a lot of work, even if not as extreme as EECS 482.
+
+For course selection, this source supports recommending EECS 485 for students who want resume-relevant web systems projects and interview talking points. It also supports warning that the course can still be time-consuming and may be less useful for students who already know full-stack web development.

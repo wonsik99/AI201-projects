@@ -4,11 +4,11 @@ This project is a small RAG system for choosing University of Michigan CS/EECS c
 
 ## Domain
 
-My domain is UMich CS/EECS course selection. I originally wanted to focus only on professor reviews, but Reddit and Rate My Professors were not reliable to collect from automatically. I narrowed the system to public student-facing course materials: course homepages, syllabi, assignment pages, and faculty teaching pages. This is still useful because official course catalog descriptions are short, while course sites show what students actually have to do: projects, exams, prerequisites, tools, staff, instructor history, and course structure.
+My domain is UMich CS/EECS course selection. I originally wanted to focus only on professor reviews, but Rate My Professors was not reliable to collect from automatically. I narrowed the system to public student-facing course materials: course homepages, syllabi, assignment pages, faculty teaching pages, and a few public r/uofm discussion threads. This is useful because official course catalog descriptions are short, while course sites and student discussions show what students actually have to do: projects, exams, prerequisites, tools, staff, instructor history, workload, and course structure.
 
 ## Document Sources
 
-I collected 22 source documents as cleaned `.txt` notes under `documents/`, organized by EECS course number.
+I collected 27 source documents as cleaned `.txt` notes under `documents/`, organized by EECS course number.
 
 | # | Source | Type | URL or file path |
 |---|--------|------|------------------|
@@ -34,6 +34,11 @@ I collected 22 source documents as cleaned `.txt` notes under `documents/`, orga
 | 20 | EECS 492 introduction to AI | Public course page and public syllabus PDF | `documents/eecs492/01_intro_ai.txt`, https://web.eecs.umich.edu/~kuipers/teaching/eecs492-F10.html ; https://laura-burdick.github.io/papers/SyllabusEECS492Winter2023.pdf |
 | 21 | EECS 493 user interface development | Public course website | `documents/eecs493/01_user_interface_dev.txt`, https://eecs493staff.github.io/eecs493.org/ |
 | 22 | EECS 494 game design | Public course syllabus | `documents/eecs494/01_game_design.txt`, https://www.eecs494.com/eecs_494_syllabus/eecs_494_syllabus.html |
+| 23 | EECS 281 workload discussion | Reddit r/uofm thread | `documents/eecs281/03_reddit_workload.txt`, https://www.reddit.com/r/uofm/comments/1q9d894/eecs_281_workload_questions/ |
+| 24 | EECS 370 and 485 workload discussion | Reddit r/uofm threads | `documents/eecs370/03_reddit_370_485_workload.txt`, https://www.reddit.com/r/uofm/comments/rwpiyv/eecs_workload_check/ ; https://www.reddit.com/r/uofm/comments/162bmcv/words_of_wisdomadvice_on_eecs_370_485_and_how_to/ |
+| 25 | EECS 370 and 376 schedule discussion | Reddit r/uofm thread | `documents/eecs376/02_reddit_370_376_combo.txt`, https://www.reddit.com/r/uofm/comments/uzdwqh/how_doable_is_eecs_370_and_eecs_376_for_fall/ |
+| 26 | EECS 482 course decision discussion | Reddit r/uofm thread | `documents/eecs482/02_reddit_should_take.txt`, https://www.reddit.com/r/uofm/comments/1mbzdyk/should_i_take_eecs_482/ |
+| 27 | EECS 485 student recommendation discussion | Reddit r/uofm thread | `documents/eecs485/03_reddit_recommendation.txt`, https://www.reddit.com/r/uofm/comments/1hkyd62/eecs_485_web_systems_course_recommendationhonest/ |
 
 ## Pipeline
 
@@ -48,7 +53,7 @@ Source Type:
 Date Collected:
 ```
 
-The cleaning step decodes HTML entities, removes HTML tags if any are present, removes common boilerplate words, normalizes whitespace, and keeps course-selection content such as prerequisites, projects, grading, topics, instructor history, and support resources.
+The cleaning step decodes HTML entities, removes HTML tags if any are present, removes common boilerplate words, normalizes whitespace, and keeps course-selection content such as prerequisites, projects, grading, topics, instructor history, workload comments, and support resources. For Reddit sources, I summarized public discussion content and kept the source URL so the notes are traceable without treating one comment as universal truth.
 
 ### Chunking Strategy
 
@@ -56,7 +61,7 @@ Chunking method: paragraph-aware character chunks.
 
 - Chunk size: 750 characters
 - Overlap: about 150 characters, implemented as paragraph/sentence-aware overlap instead of cutting in the middle of words
-- Final chunk count: 63 chunks
+- Final chunk count: 76 chunks
 
 I used 750 characters because my documents are short cleaned notes, not long PDFs. A smaller chunk keeps one course feature together, such as "EECS 485 has five projects" or "EECS 388 requires EECS 281." I used overlap because course names and details sometimes sit in adjacent paragraphs. I also changed the chunker after inspection because the first version split words in the middle, which made sample chunks look messy.
 
@@ -241,7 +246,7 @@ What I would change: I would add hybrid search with keyword matching for course 
 
 One way the spec helped me during implementation: writing the chunk size and top-k before coding made it easier to check whether the pipeline matched the plan. When the first chunk output had words cut in half, I could compare it against my own chunking goal and fix the chunker instead of pretending it was fine.
 
-One way my implementation diverged from the spec, and why: I planned to use professor review sources from Reddit and Rate My Professors, but they were not reliable to collect automatically. I changed the document set to public course pages and syllabi so the project would have real, verifiable sources and could run end-to-end. This makes the system better for course selection than subjective professor ratings, but it is less "unofficial" than my first idea.
+One way my implementation diverged from the spec, and why: I first planned to use professor-review pages from Rate My Professors and Reddit, but Rate My Professors was not reliable to collect automatically and broad professor-review content was uneven. I changed the document set to public course pages, syllabi, faculty pages, and a smaller set of public r/uofm course-discussion threads. This makes the system better for course selection than subjective professor ratings alone.
 
 ## AI Usage
 
@@ -260,8 +265,8 @@ One way my implementation diverged from the spec, and why: I planned to use prof
 **Instance 3**
 
 - What I gave the AI: I asked it to expand the source set and organize the files by EECS course number.
-- What it produced: Additional cleaned source notes for courses like EECS 203, 285, 376, 441, 473, 481, 482, 489, 492, 493, and 494, plus a recursive document loader.
-- What I changed or overrode: I kept the source notes tied to public URLs, kept the source files grouped by course folder, rebuilt the index, and reran retrieval tests to make sure the larger corpus still returned grounded answers.
+- What it produced: Additional cleaned source notes for courses like EECS 203, 285, 376, 441, 473, 481, 482, 489, 492, 493, and 494, plus a recursive document loader and a few Reddit discussion notes.
+- What I changed or overrode: I kept the source notes tied to public URLs, kept Reddit notes framed as student anecdotes, kept the source files grouped by course folder, rebuilt the index, and reran retrieval tests to make sure the larger corpus still returned grounded answers.
 
 ## How to Run
 
