@@ -1,0 +1,10 @@
+Title: EECS 442 Winter 2025 Stella Yu teaching source notes
+Source URL: https://web.eecs.umich.edu/~stellayu/
+Source Type: Public faculty teaching page / cleaned source notes
+Date Collected: 2026-06-10
+
+This source is Stella Yu's public University of Michigan EECS faculty webpage. The page identifies Stella Yu as a professor in EECS and lists her teaching history.
+
+The teaching section includes the entry "2025 W UM EECS 442 Computer Vision." For a question asking who taught EECS 442 in the Winter 2025 term, this source supports the answer Stella Yu.
+
+For course selection, this document is most useful for instructor lookup rather than workload, project, or prerequisite advice. It helps answer factual questions about who was attached to EECS 442 in a specific term.

@@ -1,0 +1,13 @@
+Title: EECS 370 assignments source notes
+Source URL: https://eecs370.github.io/resources/projects_hws.html
+Source Type: Public assignments page / cleaned source notes
+Date Collected: 2026-06-10
+
+The EECS 370 assignments page is useful because it shows what students actually build. The public page lists project and homework resources. The project section includes comments or links for projects such as an assembler, simulator, and assembly-language multiplication; an advanced assembler and linker; a pipelined datapath simulator; and a data and memory cache simulator.
+
+The page also references labs and homework folders. Lab topics visible on the assignments page include Binary and C, LC2K ISA, ARM Assembly, Linking and Functions, Digital Logic, Single and Multi-Cycle Datapaths, Pipelining, Datapath Performance, Caches, Cache-aware Programming, and Virtual Memory.
+
+For a student choosing courses, this source shows that EECS 370 is not just theory about computer organization. It includes hands-on work with assembly, simulation, linking, datapaths, caches, and memory. The work is likely more low-level and systems-oriented than web programming or machine learning.
+
+This makes EECS 370 a good fit for a student considering operating systems, computer architecture, embedded systems, security, or performance engineering. It may be less appealing to someone who wants mostly high-level Python, web UI work, or data science.
+

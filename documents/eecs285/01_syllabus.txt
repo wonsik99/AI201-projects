@@ -1,0 +1,12 @@
+Title: EECS 285 practical Java programming source notes
+Source URL: https://eecs285.org/assets/syllabus.html
+Source Type: Public course syllabus / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 285 is Practical Programming in Java. The public syllabus describes the course as a practical programming class focused on Java.
+
+The syllabus lists topics including Java syntax, expressions and statements, control flow, objects and types, inheritance, polymorphism, arrays, exceptions, interfaces, nested and local classes, generics, input and output, graphical user interfaces, threads, and mobile programming.
+
+For course selection, EECS 285 is useful for students who want a Java-focused programming course or who want more practice with object-oriented programming concepts. It is more language-practice-oriented than EECS 203 or EECS 376, and less broad than systems classes such as EECS 370 or EECS 482.
+
+This course can help answer questions like "which EECS class teaches Java?" or "which class covers inheritance, exceptions, GUI programming, and threads in Java?"

@@ -1,0 +1,13 @@
+Title: EECS 280 course homepage source notes
+Source URL: https://eecs280.org/
+Source Type: Public course website / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 280 is Programming and Introductory Data Structures at the University of Michigan. The course homepage describes it as a class about computer science fundamentals with programming in C++. It is a core course for students who need a stronger programming and data structures foundation before later EECS courses.
+
+The homepage says students build several substantial programs: a statistical analysis tool, an image processing program, a Euchre card game, a machine learning algorithm, and a text editor. That makes EECS 280 a project-heavy course compared with a class that is mainly exams or short homework. A student choosing this course should expect repeated programming projects, C++ practice, and implementation of foundational data structures.
+
+The course homepage links to a syllabus, tutorials, a grade calculator, a course archive, a Q&A forum, office hours, an autograder, lecture notes, Gradescope, Canvas, and files. This suggests the course has a lot of structured support, but also a lot of moving pieces to track. For a student who wants a course with frequent programming practice and visible support resources, EECS 280 is a good fit. For a student who dislikes long C++ projects, this course may feel demanding.
+
+For course selection, the most useful facts are: EECS 280 is in C++, it focuses on programming fundamentals and introductory data structures, it includes multiple named projects, and it has extensive support infrastructure through office hours, tutorials, lecture notes, an autograder, and Q&A.
+

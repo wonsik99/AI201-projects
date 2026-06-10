@@ -1,0 +1,12 @@
+Title: EECS 441 and EECS 498 mobile app development source notes
+Source URLs: https://eecs441soloway.github.io/ ; https://eecs441.eecs.umich.edu/
+Source Type: Public course websites / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 441 is Mobile App Development for Entrepreneurs, and related EECS 498 mobile app materials describe team-based mobile app design and development. The public course pages emphasize both software engineering of mobile applications and the entrepreneurial side of designing, producing, and marketing mobile apps.
+
+One public mobile app course page says students work in teams of about 5-7 students to build mobile apps that take advantage of device capabilities such as camera, microphone, speakers, GPS, and biometric sensors. It also asks whether students can build backend servers that handle audio, image, and location data.
+
+For course selection, EECS 441 or the related EECS 498 mobile app course is a strong fit for students who want a team project, mobile app development, UI/UX design, product thinking, and practical integration across mobile device features and backend services.
+
+This source is useful for questions like "which EECS course should I take for mobile apps?" or "which class has a team project with mobile sensors, backend services, and app design?"

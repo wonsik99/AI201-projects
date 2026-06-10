@@ -1,0 +1,12 @@
+Title: EECS 482 operating systems source notes
+Source URLs: https://web.eecs.umich.edu/~harshavm/eecs482/ ; https://web.eecs.umich.edu/~harshavm/eecs482/syllabus.html
+Source Type: Public course website and syllabus / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 482 is Introduction to Operating Systems. The public syllabus describes it as an introductory course on operating systems at the senior undergraduate or first-year graduate level.
+
+The objective is to teach issues involved in the design and implementation of modern operating systems. The syllabus says the concepts apply to many operating systems and hardware platforms, with examples drawn from historically significant and modern operating systems such as MULTICS, UNIX, Mach, and Windows.
+
+For course selection, EECS 482 is a good fit for students who want operating systems, system design, concurrency, memory, processor management, file systems, and lower-level software infrastructure. It is likely more systems-heavy than EECS 485 and more software-infrastructure focused than EECS 370.
+
+This source is useful for questions like "which course should I take for operating systems?" or "which EECS class covers modern OS design and implementation?"

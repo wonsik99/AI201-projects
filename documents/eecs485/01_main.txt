@@ -1,0 +1,13 @@
+Title: EECS 485 course homepage source notes
+Source URL: https://eecs485.org/
+Source Type: Public course website / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 485 is Web Systems at the University of Michigan. The Winter 2026 course homepage describes it as a holistic course on modern web systems and technologies, covering front end and back end. The homepage says students build an Instagram clone in the first half of the semester and a Google clone in the second half.
+
+The homepage links to the syllabus, tutorials, projects, exams, an Ed Q&A forum, office hours, a course chatbot, files, and Gradescope. This makes the course look project-centered and resource-heavy. The homepage schedule includes topics such as Introduction, Static Pages, Server-side Dynamic Pages, Sessions, Encryption, Web Security, REST APIs, Client-side Dynamic Pages, Client-side Applications, Asynchronous Programming, MapReduce, Google File System, Search, Indexing, Scoring, Recommender Systems, and Ads.
+
+For course selection, EECS 485 is a good match for students who want to build full-stack applications and learn practical web engineering. It is more application-focused than EECS 370, more systems-and-product focused than EECS 281, and more web-specific than EECS 445. It also has a search-engine component, so it can connect to information retrieval and large-scale web data.
+
+Students should expect several deadlines and project work. The homepage shows project deadlines across the semester and an exam schedule. A student who wants hands-on web development and is comfortable learning tools independently would likely get more out of EECS 485 than a student who wants only lecture-based theory.
+

@@ -1,0 +1,12 @@
+Title: EECS 494 computer game design source notes
+Source URL: https://www.eecs494.com/eecs_494_syllabus/eecs_494_syllabus.html
+Source Type: Public course syllabus / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 494 is Computer Game Design and Development. The public syllabus says students end the course with at least three significant, interactive game projects in their public portfolios.
+
+The syllabus also references public development blogs, marketing trailers, booth design, portfolio design, and additional game development resources. This suggests the course is not only about programming mechanics, but also about presenting and developing playable games.
+
+For course selection, EECS 494 is a strong fit for students who want game development, interactive projects, public portfolio work, and creative technical production. It is likely more project and portfolio focused than many lecture-centered EECS courses.
+
+Compared with EECS 485, EECS 494 is less about web systems and more about playable interactive software. Compared with EECS 493, it shares interest in user interaction but focuses on games rather than general user interface development.

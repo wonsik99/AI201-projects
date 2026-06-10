@@ -1,0 +1,12 @@
+Title: EECS 473 advanced embedded systems source notes
+Source URL: https://www.eecs.umich.edu/courses/eecs473/overview.html
+Source Type: Public course overview / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 473 is Advanced Embedded Systems. The public overview says the course shifts focus from foundational material to applications.
+
+The course overview mentions rapid prototyping, design of APIs for hardware devices, and PCB design. This makes the course look more hardware/software integration focused than courses centered only on web, theory, or machine learning.
+
+For course selection, EECS 473 is a good fit for students interested in embedded systems, hardware devices, prototyping, PCB design, and the boundary between software and physical systems. It may be especially relevant for students considering robotics, embedded product development, hardware startups, IoT, or low-level device work.
+
+Compared with EECS 370, EECS 473 appears more application and design oriented. EECS 370 teaches computer organization foundations; EECS 473 applies low-level and hardware/software ideas toward embedded system design.

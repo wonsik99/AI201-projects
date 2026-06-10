@@ -1,0 +1,13 @@
+Title: EECS 370 course homepage source notes
+Source URL: https://eecs370.github.io/
+Source Type: Public course website / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 370 is Introduction to Computer Organization at the University of Michigan. The Spring 2026 public homepage lists Jonathan Beaumont for live and asynchronous lectures. The live section is shown as Tuesday and Thursday, 12:00-3:00 PM, in 1010 DOW, with studio recordings also available.
+
+The course website links to exam information, course resources, assignments, a syllabus, a grade calculator, Ed, office hours, Autograder, files, Gradescope, Canvas, and YouTube. The homepage structure makes EECS 370 look like a systems-foundation course with many support channels and assignment resources.
+
+The course is useful for students who want to understand what happens below high-level programming languages. The public site points students toward lectures, asynchronous recordings, projects, homework, labs, and simulators. A student choosing between EECS 370 and a more application-focused class should know that EECS 370 is about computer organization, low-level representation, assembly, datapaths, memory, and architectural concepts.
+
+For course selection, EECS 370 fits students interested in systems, hardware/software boundaries, architecture, operating systems preparation, and security preparation. It is less directly about building user-facing applications than EECS 485 and less directly about algorithmic problem solving than EECS 281.
+

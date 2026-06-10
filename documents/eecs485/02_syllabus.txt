@@ -1,0 +1,15 @@
+Title: EECS 485 syllabus source notes
+Source URL: https://eecs485.org/syllabus.html
+Source Type: Public course syllabus / cleaned source notes
+Date Collected: 2026-06-10
+
+The EECS 485 syllabus says the instructor is Raed Almomani for Winter 2026. It describes lectures as in-person and recorded, with no lecture attendance taken. Labs are in-person, one lab is recorded, and students may attend any lab section or watch recordings. Office hours are both in-person and remote.
+
+The syllabus says projects are completed in groups and turned in to an autograder. Project 1 is independent, while the remaining projects are completed in groups of 2-3. The projects are a major part of the course: five programming projects are listed. The first three focus on web apps, and the last two focus on web distributed systems and web semantics.
+
+Project 1 is a templated static site generator for an Instagram clone. Project 2 is server-side dynamic pages for an Instagram clone. Project 3 is client-side dynamic pages for an Instagram clone. Project 4 is MapReduce, described as a single-machine, multi-process, multi-threaded server that executes user-submitted MapReduce jobs. Project 5 is a scalable search engine similar to Google or Bing.
+
+The syllabus says the prerequisite for EECS 485 is EECS 281. It also says the course requires substantial independent learning and expects students to learn HTML, CSS, SQL, Python, and JavaScript. The grading weights are 50% programming projects, 25% midterm exam, and 25% final exam.
+
+For course selection, this is one of the clearest sources that EECS 485 is project-heavy and tool-heavy. It is a good fit for students who want full-stack web systems, distributed systems basics, and search-engine implementation. It may be challenging for students who dislike independent tool learning or group programming projects.
+

@@ -1,0 +1,13 @@
+Title: EECS 280 syllabus source notes
+Source URL: https://eecs280.org/syllabus.html
+Source Type: Public course syllabus / cleaned source notes
+Date Collected: 2026-06-10
+
+The EECS 280 syllabus is useful for students deciding whether they are ready for the course because it explains the expectations behind Programming and Introductory Data Structures. The course is centered on C++ programming, data abstraction, recursion, testing, debugging, and implementing data structures.
+
+The course has a strong project rhythm. A student should not think of EECS 280 as only a lecture course. The public course site and syllabus materials connect the course to programming projects, autograding, office hours, tutorials, lecture notes, and exams. That combination suggests that success depends on keeping up with projects over time, not just studying right before an exam.
+
+For a student who already took an introductory programming class, EECS 280 is the next practical step toward the CS major path. It is especially useful before courses like EECS 281 because it builds C++ habits and core data structure vocabulary. The course is also useful for students who want to find out whether they enjoy larger programming assignments before committing to more advanced systems or algorithms classes.
+
+For advising, I would describe EECS 280 as a high-foundation course: take it when you are ready to spend consistent time coding, debugging, and using course support. It is less specialized than web systems, security, machine learning, or computer organization, but it unlocks many of those later courses.
+

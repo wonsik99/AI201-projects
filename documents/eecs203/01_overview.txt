@@ -1,0 +1,12 @@
+Title: EECS 203 discrete mathematics source notes
+Source URLs: https://eecs203.github.io/eecs203.org/ ; https://ece.engin.umich.edu/academics/course-information/course-descriptions/eecs-203/
+Source Type: Public course website and public ECE course description / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 203 is Discrete Mathematics at the University of Michigan. The public course homepage welcomes students to Discrete Math and frames the class around the mathematical foundations used in computer science.
+
+The ECE course description says EECS 203 covers propositional and predicate logic, proof methods, set theory, functions, sequences and summations, introduction to algorithms, growth of functions and asymptotic notation, mathematical induction, counting, the pigeonhole principle, permutations and combinations, relations and their properties, closure of relations, partial orderings, and introduction to graph theory.
+
+For course selection, EECS 203 is most useful as a proof and math foundation course. A student who wants to be ready for algorithms, theory, cryptography, or formal reasoning should treat EECS 203 as important background. It is less about building software projects and more about learning the language of proofs, counting, logic, functions, relations, and graphs.
+
+This source is especially useful for questions like "what course should I take before theory-heavy CS?" or "which EECS course teaches proof methods and counting?"

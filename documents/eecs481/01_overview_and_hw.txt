@@ -1,0 +1,12 @@
+Title: EECS 481 software engineering source notes
+Source URLs: https://eecs481.org/ ; https://eecs481.org/hw6.html
+Source Type: Public course website and homework page / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 481 is Software Engineering. The public course website says it focuses on software engineering and analysis.
+
+The website organizes the course around five core topics: Measurement and Risk, Quality Assurance especially testing, Software Defects, Software Design, and Productivity at Scale. This makes EECS 481 different from a programming language class because the emphasis is on how to build, evaluate, test, and maintain software systems in a larger engineering context.
+
+The public homework page for a contribution assignment says students contribute to an open-source GitHub project. The assignment goal is to produce and submit a non-trivial modification or extension in a way that maximizes the chance that project maintainers accept it.
+
+For course selection, EECS 481 is a strong fit for students who want practical software engineering, testing, debugging, defects, design, productivity, open-source contribution, and real-world codebase experience. It is not the same as EECS 485: EECS 485 is web systems, while EECS 481 is broader software engineering practice.

@@ -1,0 +1,13 @@
+Title: EECS 281 syllabus source notes
+Source URL: https://eecs281staff.github.io/eecs281.org/syllabus.html
+Source Type: Public course syllabus / cleaned source notes
+Date Collected: 2026-06-10
+
+The EECS 281 syllabus page gives students the official expectations for Data Structures and Algorithms. It connects the course to lectures, videos and slides, projects, staff, Canvas, and other course resources. The course has both conceptual algorithm content and programming-project work.
+
+EECS 281 should be treated as a core algorithms course rather than a narrow programming elective. The course schedule and project list show that students need to understand algorithm families and implement them in C++. Topics include recursion, asymptotic analysis, priority queues, sorting, hashing, trees, graph algorithms, dynamic programming, greedy algorithms, and optimization.
+
+The staff page lists faculty and course staff, including Marcus Darden, Hector Garcia, David Paoletti, and Rose Sherry on the homepage materials. For a student looking for professor-specific advice, the source documents can identify who is attached to the public course site, but they do not include subjective student ratings. This is a limitation of the current source set.
+
+For advising, I would recommend EECS 281 to students who already have the EECS 280 programming foundation and want the main algorithms gateway course. I would not describe it as an easy exploratory class. It looks like a course where staying current with projects, lectures, and practice problems matters.
+

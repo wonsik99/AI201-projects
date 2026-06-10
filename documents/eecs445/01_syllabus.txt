@@ -1,0 +1,15 @@
+Title: EECS 445 syllabus source notes
+Source URL: https://eecs445-f16.github.io/
+Source Type: Public course syllabus / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 445 is Introduction to Machine Learning. The public Fall 2016 syllabus describes it as a programming-focused introduction to machine learning. It says machine learning provides theoretical foundations for data analysis and modern artificial intelligence approaches, with real-world applications across many industries.
+
+The syllabus says the course emphasizes understanding foundational algorithms and practical tricks through implementation and basic theoretical analysis. On the implementation side, the course mentions practical applications in computer vision, data mining, speech recognition, text processing, bioinformatics, and robot perception and control. It says real datasets will be used whenever feasible and that the course provides an opportunity for an open-ended research project.
+
+On the theory side, the syllabus lists regression, classification, kernel methods, regularization, neural networks, graphical models, and unsupervised learning. The listed professors for this older public offering are Jacob Abernethy and Jia Deng.
+
+The prerequisite section says the only enforced prerequisite is EECS 281, but it warns that students will struggle without familiarity with linear algebra and probability. It specifically mentions linear algebra at the level of MATH 419 or MATH 214, preferably MATH 217, and probability at the level of EECS 401, MATH 425, or equivalent.
+
+For course selection, EECS 445 is best for students who want machine learning and AI foundations and are ready for math. Compared with EECS 485, it is less about web applications. Compared with EECS 388, it is less about security. Compared with EECS 370, it is less about low-level computer organization. It is a better fit after EECS 281 plus some comfort with linear algebra and probability.
+

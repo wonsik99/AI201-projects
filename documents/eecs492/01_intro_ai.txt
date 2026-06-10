@@ -1,0 +1,12 @@
+Title: EECS 492 introduction to artificial intelligence source notes
+Source URLs: https://web.eecs.umich.edu/~kuipers/teaching/eecs492-F10.html ; https://laura-burdick.github.io/papers/SyllabusEECS492Winter2023.pdf
+Source Type: Public course page and public syllabus PDF / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 492 is Introduction to Artificial Intelligence. A public course page describes it as a course about fundamental concepts of AI, organized around building computational agents.
+
+The course page lists core topics such as search, logic, representation and reasoning, automated planning, decision making under uncertainty, and machine learning. It also lists the prerequisite as EECS 281 or graduate standing.
+
+A public Winter 2023 syllabus describes a machine learning unit that includes algorithms for agents to learn, including linear regression, decision trees, neural networks, and reinforcement learning. The syllabus also says lectures are part of the course structure.
+
+For course selection, EECS 492 is useful for students who want broad AI foundations rather than only machine learning. Compared with EECS 445, EECS 492 is broader in classical AI topics such as search, logic, planning, uncertainty, and agents. EECS 445 is more specifically about machine learning foundations.

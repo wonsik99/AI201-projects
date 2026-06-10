@@ -1,0 +1,12 @@
+Title: EECS 376 foundations of computer science source notes
+Source URLs: https://eecs376.org/ ; https://eecs376.org/syllabus.html
+Source Type: Public course website and syllabus / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 376 is Foundations of Computer Science. The public site and syllabus describe it as an introduction to computer science theory with applications.
+
+The course description says it covers design and analysis of algorithms, including divide-and-conquer and dynamic programming. It also covers computability and complexity: how to identify problems that computers cannot solve at all, problems unlikely to be efficiently solvable, and when approximation can be useful.
+
+For course selection, EECS 376 is a theory-heavy class. It is a good fit for students who want deeper algorithmic thinking, proofs, computability, complexity, reductions, approximation, and theoretical limits of computation. It is not mainly a software-building class.
+
+Compared with EECS 281, EECS 376 is more proof and theory focused. Compared with EECS 203, it is more advanced and closer to algorithms, computability, and complexity. It is a useful source for questions about theory requirements, proof-heavy courses, and preparation for advanced CS theory.

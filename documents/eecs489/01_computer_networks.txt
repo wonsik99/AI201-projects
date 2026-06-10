@@ -1,0 +1,12 @@
+Title: EECS 489 computer networks source notes
+Source URLs: https://web.eecs.umich.edu/~sugih/courses/eecs489/ ; https://github.com/mosharaf/eecs489
+Source Type: Public course website and public course repository / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 489 is Computer Networks. Public EECS 489 course materials describe it as a class about how networks operate and how network applications are written.
+
+The course description says students study the workings of Ethernet and the Internet: how packets are routed, how packets are transmitted, and what to do when there is network congestion. It also mentions packet headers, routing and transmission protocols, sockets, and writing code.
+
+Another public course repository describes a top-down approach covering popular distributed systems such as video streaming, content distribution networks, and cloud computing systems, plus transport layer protocols such as TCP and UDP.
+
+For course selection, EECS 489 is a strong fit for students interested in networking, Internet architecture, distributed systems basics, sockets, routing, congestion, TCP/UDP, and client-server or peer-to-peer applications. It is more network-specific than EECS 482 and more infrastructure-focused than EECS 485.

@@ -1,0 +1,13 @@
+Title: EECS 281 course homepage source notes
+Source URL: https://eecs281staff.github.io/eecs281.org/
+Source Type: Public course website / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 281 is Data Structures and Algorithms at the University of Michigan. The course homepage labels it as Data Structures and Algorithms in C++. The course is a major step after EECS 280 because it moves from introductory data structures into algorithmic analysis, graph algorithms, sorting, hashing, trees, dynamic programming, and optimization.
+
+The public schedule includes topics such as stack, queue, and priority queue ADTs; complexity analysis and math foundations; recursion and the Master Theorem; heaps and heapsort; ordered arrays; elementary sorts; quicksort; mergesort; hashing; trees; binary search trees; AVL trees; graph ADTs; minimum spanning tree algorithms; algorithm families; backtracking and branch and bound for traveling salesperson; dynamic programming; knapsack; greedy single-source algorithms; strings and sequences; and computational geometry if time permits.
+
+The course homepage includes a projects section. The projects emphasize graph search and route tracing with BFS and DFS; priority queues, templated containers, inheritance, interface programming, and streaming algorithms; hash tables and larger data structures through composition; and optimization algorithms such as traveling salesperson and knapsack. This makes EECS 281 a course for students who want algorithms with substantial programming projects.
+
+For course selection, EECS 281 is important for students who want the core CS sequence and need preparation for many upper-level electives. It is a better match for students who are ready for algorithmic thinking and C++ implementation than for students looking for a lighter conceptual elective.
+

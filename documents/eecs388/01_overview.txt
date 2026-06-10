@@ -1,0 +1,15 @@
+Title: EECS 388 course overview source notes
+Source URL: https://eecs388.org/
+Source Type: Public course website / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 388 is Introduction to Computer Security. The Winter 2026 public homepage says the course teaches the security mindset and introduces computer security as applied to software, host systems, and networks. The listed topics include standard cryptographic functions and protocols, threats and defenses for real-world systems, incident response, and computer forensics.
+
+The homepage lists professors Morley Mao and Ang Chen. It says lectures are Monday and Wednesday 9:00-10:30 AM in 1670 BBB. It also says students may review slides and videos asynchronously. Labs introduce tools and techniques that are important for completing projects, and students may attend labs in person or review materials asynchronously.
+
+The prerequisites section says EECS 281 is required, and EECS 201 and EECS 370 are recommended. That makes EECS 388 a better choice after a student has algorithms and some systems background. The grading table lists Projects and Labs as 50%, Midterm Exam as 15%, Final Exam as 30%, and Participation as 5%.
+
+The ethics section is especially important. The course warns that security techniques can violate law, university rules, or ethics if used outside authorized settings. The policy says students must not probe or attack systems without explicit permission and must not use attack techniques to violate privacy.
+
+For course selection, EECS 388 is a good fit for students interested in practical security, cryptography basics, systems and network threats, forensics, and attacker/defender thinking. It is not a good first systems course because EECS 370 is recommended and EECS 281 is required.
+

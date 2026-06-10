@@ -1,0 +1,12 @@
+Title: EECS 493 user interface development source notes
+Source URL: https://eecs493staff.github.io/eecs493.org/
+Source Type: Public course website / cleaned source notes
+Date Collected: 2026-06-10
+
+EECS 493 is User Interface Development. The public course homepage says the course is for students to gain conceptual understanding of user-centered design and practical experience designing, implementing, and testing user interfaces.
+
+The homepage says the course consists of 5 individual assignments, 1 group project, 6 quizzes, 1 midterm exam, and 1 final exam. This gives useful workload structure for course selection: there are repeated assignments, a group project, quizzes, and exams.
+
+For course selection, EECS 493 is a good fit for students interested in HCI, UI/UX, user-centered design, interface implementation, usability, and testing user interfaces. It is more design and interaction focused than EECS 485, which is more web systems focused, and more user-facing than EECS 481, which is broader software engineering.
+
+This source helps answer questions like "which course should I take for UI/UX?" or "which EECS class has user-centered design and a group UI project?"
