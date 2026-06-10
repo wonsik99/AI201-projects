@@ -4,11 +4,11 @@ This project is a small RAG system for choosing University of Michigan CS/EECS c
 
 ## Domain
 
-My domain is UMich CS/EECS course selection. I originally wanted to focus only on professor reviews, but Rate My Professors was not reliable to collect from automatically. I narrowed the system to public student-facing course materials: course homepages, syllabi, assignment pages, faculty teaching pages, and public r/uofm discussion threads. This is useful because official course catalog descriptions are short, while course sites and student discussions show what students actually have to do: projects, exams, prerequisites, tools, staff, instructor history, workload, and course structure.
+My domain is UMich CS/EECS course selection. I originally wanted to focus only on professor reviews, but professor reviews alone were too subjective and uneven. I kept the main corpus centered on public student-facing course materials: course homepages, syllabi, assignment pages, faculty teaching pages, and public r/uofm discussion threads. I also added Rate My Professors aggregate notes as a supplemental source for professor-specific questions. This is useful because official course catalog descriptions are short, while course sites and student discussions show what students actually have to do: projects, exams, prerequisites, tools, staff, instructor history, workload, and course structure.
 
 ## Document Sources
 
-I collected 48 source documents as cleaned `.txt` notes under `documents/`, organized by EECS course number.
+I collected 67 source documents as cleaned `.txt` notes under `documents/`, organized by EECS course number.
 
 | # | Source | Type | URL or file path |
 |---|--------|------|------------------|
@@ -60,6 +60,25 @@ I collected 48 source documents as cleaned `.txt` notes under `documents/`, orga
 | 46 | EECS 489 experience discussion | Reddit r/uofm thread | `documents/eecs489/02_reddit_489_experience.txt`, https://www.reddit.com/r/uofm/comments/1p8jka4/eecs_489_experience/ |
 | 47 | EECS 493 workload discussion | Reddit r/uofm thread | `documents/eecs493/02_reddit_493_workload.txt`, https://www.reddit.com/r/uofm/comments/1aw8754/eecs493/ |
 | 48 | EECS 494 questions discussion | Reddit r/uofm thread | `documents/eecs494/02_reddit_494_questions.txt`, https://www.reddit.com/r/uofm/comments/1fuh8y0/eecs_494_questions/ |
+| 49 | Emily Graetz RMP notes | Rate My Professors aggregate notes | `documents/eecs203/04_rmp_emily_graetz.txt`, https://www.ratemyprofessors.com/professor/2247525 |
+| 50 | Andrew DeOrio RMP notes | Rate My Professors aggregate notes | `documents/eecs280/06_rmp_andrew_deorio.txt`, https://www.ratemyprofessors.com/professor/1765657 |
+| 51 | John Kloosterman RMP notes | Rate My Professors aggregate notes | `documents/eecs280/07_rmp_john_kloosterman.txt`, https://www.ratemyprofessors.com/professor/2250514 |
+| 52 | James Juett RMP notes | Rate My Professors aggregate notes | `documents/eecs280/08_rmp_james_juett.txt`, https://www.ratemyprofessors.com/professor/2048250 |
+| 53 | Sofia Saleem RMP notes | Rate My Professors aggregate notes | `documents/eecs280/09_rmp_sofia_saleem.txt`, https://www.ratemyprofessors.com/professor/2551383 |
+| 54 | David Paoletti RMP notes | Rate My Professors aggregate notes | `documents/eecs281/07_rmp_david_paoletti.txt`, https://www.ratemyprofessors.com/professor/1836686 |
+| 55 | Andrew Lukefahr RMP notes | Rate My Professors aggregate notes | `documents/eecs281/08_rmp_andrew_lukefahr.txt`, https://www.ratemyprofessors.com/professor/2188979 |
+| 56 | Jonathan Beaumont RMP notes | Rate My Professors aggregate notes | `documents/eecs370/06_rmp_jonathan_beaumont.txt`, https://www.ratemyprofessors.com/professor/2527952 |
+| 57 | Harrison Davis RMP notes | Rate My Professors aggregate notes | `documents/eecs370/07_rmp_harrison_davis.txt`, https://www.ratemyprofessors.com/professor/2334421 |
+| 58 | Nicole Wein RMP notes | Rate My Professors aggregate notes | `documents/eecs376/06_rmp_nicole_wein.txt`, https://www.ratemyprofessors.com/professor/3007200 |
+| 59 | Emily Graetz EECS 376 RMP notes | Rate My Professors aggregate notes | `documents/eecs376/07_rmp_emily_graetz_376.txt`, https://www.ratemyprofessors.com/professor/2247525 |
+| 60 | Alex Halderman RMP notes | Rate My Professors aggregate notes | `documents/eecs388/04_rmp_alex_halderman.txt`, https://www.ratemyprofessors.com/professor/1660233 |
+| 61 | Zhuoqing Morley Mao RMP notes | Rate My Professors aggregate notes | `documents/eecs388/05_rmp_morley_mao.txt`, https://www.ratemyprofessors.com/professor/790758 |
+| 62 | Stella Yu RMP notes | Rate My Professors aggregate notes | `documents/eecs442/02_rmp_stella_yu.txt`, https://www.ratemyprofessors.com/professor/3097263 |
+| 63 | ML-related instructor RMP notes | Rate My Professors aggregate notes | `documents/eecs445/04_rmp_ml_instructors.txt`, https://www.ratemyprofessors.com/professor/1883916 ; https://www.ratemyprofessors.com/professor/2198742 ; https://www.ratemyprofessors.com/professor/1848865 ; https://www.ratemyprofessors.com/professor/1622306 |
+| 64 | Westley Weimer RMP notes | Rate My Professors aggregate notes | `documents/eecs481/03_rmp_westley_weimer.txt`, https://www.ratemyprofessors.com/professor/2277209 |
+| 65 | Harsha Madhyastha RMP notes | Rate My Professors aggregate notes | `documents/eecs482/03_rmp_harsha_madhyastha.txt`, https://www.ratemyprofessors.com/professor/2052368 |
+| 66 | EECS 485 DeOrio/Kloosterman RMP notes | Rate My Professors aggregate notes | `documents/eecs485/04_rmp_deorio_kloosterman_485.txt`, https://www.ratemyprofessors.com/professor/1765657 ; https://www.ratemyprofessors.com/professor/2250514 |
+| 67 | Mosharaf Chowdhury RMP notes | Rate My Professors aggregate notes | `documents/eecs489/03_rmp_mosharaf_chowdhury.txt`, https://www.ratemyprofessors.com/professor/2270545 |
 
 ## Pipeline
 
@@ -74,7 +93,7 @@ Source Type:
 Date Collected:
 ```
 
-The cleaning step decodes HTML entities, removes HTML tags if any are present, removes common boilerplate words, normalizes whitespace, and keeps course-selection content such as prerequisites, projects, grading, topics, instructor history, workload comments, and support resources. For Reddit sources, I summarized public discussion content and kept the source URL so the notes are traceable without treating one comment as universal truth.
+The cleaning step decodes HTML entities, removes HTML tags if any are present, removes common boilerplate words, normalizes whitespace, and keeps course-selection content such as prerequisites, projects, grading, topics, instructor history, workload comments, and support resources. For Reddit and RMP sources, I summarized public discussion content or aggregate professor-review signals and kept the source URL so the notes are traceable without treating one comment as universal truth.
 
 ### Chunking Strategy
 
@@ -82,7 +101,7 @@ Chunking method: paragraph-aware character chunks.
 
 - Chunk size: 750 characters
 - Overlap: about 150 characters, implemented as paragraph/sentence-aware overlap instead of cutting in the middle of words
-- Final chunk count: 99 chunks
+- Final chunk count: 129 chunks
 
 I used 750 characters because my documents are short cleaned notes, not long PDFs. A smaller chunk keeps one course feature together, such as "EECS 485 has five projects" or "EECS 388 requires EECS 281." I used overlap because course names and details sometimes sit in adjacent paragraphs. I also changed the chunker after inspection because the first version split words in the middle, which made sample chunks look messy.
 
@@ -250,7 +269,7 @@ Sources:
 | 1 | Which course should I take if I want full stack web development projects? | EECS 485, because it covers front end/back end and has web projects. | EECS 485 homepage chunk 3; EECS 485 syllabus chunk 2; EECS 485/481 Reddit workload chunk 0 | Recommended EECS 485 for full-stack web applications and practical web engineering. | Relevant | Accurate |
 | 2 | EECS 388 security prerequisites EECS 281 EECS 370 | EECS 388 is the security course; EECS 281 is required and EECS 201/370 are recommended. | EECS 388 chunks 0, 3, 2 | Identified EECS 388 and included the EECS 281 required / EECS 201 and 370 recommended prerequisite info. | Relevant | Accurate |
 | 3 | EECS 281 algorithms projects graph search priority queues hash tables | EECS 281 covers algorithms and projects with graph search, priority queues, hash tables, and optimization. | EECS 281 homepage chunks 3 and 1; EECS 281 syllabus chunk 1 | Returned EECS 281 and listed graph search, priority queues, hash tables, and optimization projects. | Relevant | Accurate |
-| 4 | Who was the EECS 442 professor in 2025 winter term? | Stella Yu was the professor/instructor for EECS 442 Computer Vision in Winter 2025. | EECS 442 Winter 2025 Stella Yu teaching source chunk 0; EECS 370 homepage chunk 0; EECS 485 homepage chunk 0 | Answered Stella Yu and cited the EECS 442 Winter 2025 teaching source. | Relevant | Accurate |
+| 4 | Who was the EECS 442 professor in 2025 winter term? | Stella Yu was the professor/instructor for EECS 442 Computer Vision in Winter 2025. | EECS 442 Winter 2025 Stella Yu teaching source chunk 0; ML instructor RMP chunk 2; EECS 370 homepage chunk 0 | Answered Stella Yu and cited the EECS 442 Winter 2025 teaching source. | Partially relevant | Accurate |
 | 5 | What math background does EECS 445 warn students need? | EECS 445 warns students need linear algebra and probability background. | EECS 388 chunks 2 and 3; EECS 376 Reddit learning chunk 0 | Incorrectly answered with EECS 388 prerequisite/security context instead of EECS 445 math background. | Off-target | Inaccurate |
 
 ## Failure Case Analysis
@@ -267,7 +286,7 @@ What I would change: I would add hybrid search with keyword matching for course 
 
 One way the spec helped me during implementation: writing the chunk size and top-k before coding made it easier to check whether the pipeline matched the plan. When the first chunk output had words cut in half, I could compare it against my own chunking goal and fix the chunker instead of pretending it was fine.
 
-One way my implementation diverged from the spec, and why: I first planned to use professor-review pages from Rate My Professors and Reddit, but Rate My Professors was not reliable to collect automatically and broad professor-review content was uneven. I changed the document set to public course pages, syllabi, faculty pages, and public r/uofm course-discussion threads. This makes the system better for course selection than subjective professor ratings alone.
+One way my implementation diverged from the spec, and why: I first planned to use professor-review pages as the main source set, but professor reviews alone were too subjective and uneven. I changed the document set so official course pages, syllabi, faculty pages, and Reddit course discussions are the core sources, while RMP is only a supplemental source for professor-specific questions. This makes the system better for course selection than subjective professor ratings alone.
 
 ## AI Usage
 
@@ -286,8 +305,8 @@ One way my implementation diverged from the spec, and why: I first planned to us
 **Instance 3**
 
 - What I gave the AI: I asked it to expand the source set and organize the files by EECS course number.
-- What it produced: Additional cleaned source notes for courses like EECS 203, 285, 376, 441, 473, 481, 482, 489, 492, 493, and 494, plus a recursive document loader and expanded Reddit discussion notes.
-- What I changed or overrode: I kept the source notes tied to public URLs, kept Reddit notes framed as student anecdotes, kept the source files grouped by course folder, rebuilt the index, and reran retrieval tests to make sure the larger corpus still returned grounded answers.
+- What it produced: Additional cleaned source notes for courses like EECS 203, 285, 376, 441, 473, 481, 482, 489, 492, 493, and 494, plus a recursive document loader, expanded Reddit discussion notes, and RMP aggregate source notes.
+- What I changed or overrode: I kept the source notes tied to public URLs, kept Reddit and RMP notes framed as subjective student signals, avoided copying long review text, kept the source files grouped by course folder, rebuilt the index, and reran retrieval tests to make sure the larger corpus still returned grounded answers.
 
 ## How to Run
 

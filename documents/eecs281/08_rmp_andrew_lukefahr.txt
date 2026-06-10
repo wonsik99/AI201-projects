@@ -1,0 +1,10 @@
+Title: Andrew Lukefahr Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/2188979
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Andrew Lukefahr in Computer Science at the University of Michigan. The page shows an overall quality score of 4.5 out of 5 based on 8 ratings, with 100% saying they would take again and a 3.4 level of difficulty.
+
+The visible ratings include EECS 281 and EECS 280. Student comments describe clear teaching, care for students, and useful office hours. The ratings are older and the sample size is small, so this should be treated as a limited historical instructor-opinion source.
+
+For course selection, this source is mainly useful for professor-specific questions about older EECS 281 and EECS 280 experiences.

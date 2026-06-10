@@ -1,0 +1,10 @@
+Title: Sofia Saleem Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/2551383
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Sofia Saleem in Computer Science at the University of Michigan. The page shows an overall quality score of 5.0 out of 5 based on 5 ratings, with 100% saying they would take again and a 3.2 level of difficulty.
+
+The visible ratings are for EECS 280. Student comments emphasize clear lecture recordings, straightforward explanations, useful examples, and help with code questions. The small number of ratings means the sample is limited.
+
+For course selection, this source can answer narrow professor-review questions about EECS 280, but it should be treated as a small-sample subjective source.

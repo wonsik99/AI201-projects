@@ -1,0 +1,10 @@
+Title: EECS 485 Rate My Professors instructor source notes
+Source URLs: https://www.ratemyprofessors.com/professor/1765657 ; https://www.ratemyprofessors.com/professor/2250514
+Source Type: Rate My Professors pages / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+These Rate My Professors pages are for Andrew DeOrio and John Kloosterman, both of whom have visible EECS 485 ratings on RMP.
+
+Andrew DeOrio's page shows 4.6 out of 5 based on 142 ratings, 91% would take again, and 3.5 difficulty. The visible EECS 485 ratings are positive about lecture quality, asynchronous lectures, and care for students, while still marking EECS 485 as project-heavy. John Kloosterman's page shows 4.6 out of 5 based on 39 ratings, 95% would take again, and 3.0 difficulty. The visible EECS 485 ratings describe clear lectures, useful code exercises, and care for student success.
+
+For course selection, this source helps answer professor-review questions about EECS 485. It does not replace the official EECS 485 syllabus because RMP ratings are subjective and may refer to older offerings.

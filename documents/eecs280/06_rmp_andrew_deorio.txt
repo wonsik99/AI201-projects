@@ -1,0 +1,10 @@
+Title: Andrew DeOrio Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/1765657
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Andrew DeOrio in Computer Science at the University of Michigan. The page shows an overall quality score of 4.6 out of 5 based on 142 ratings, with 91% saying they would take again and a 3.5 level of difficulty.
+
+The visible ratings include EECS 280 and EECS 485. Repeated themes in the visible reviews are clear explanations, strong lectures or lecture recordings, care for students, and helpfulness. Some EECS 485 ratings still mark the class as difficult because of projects, even when the professor rating is positive.
+
+For course selection, this source supports professor-specific questions about EECS 280 or EECS 485, but it should be treated as subjective student opinion rather than official evidence about the course.

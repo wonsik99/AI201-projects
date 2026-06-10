@@ -1,0 +1,10 @@
+Title: Mosharaf Chowdhury Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/2270545
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Mosharaf Chowdhury in Computer Science at the University of Michigan. The page shows an overall quality score of 3.3 out of 5 based on 6 ratings, with 50% saying they would take again and a 3.2 level of difficulty.
+
+The visible ratings include EECS 489 and related systems courses. Student comments are mixed: some describe the networking material and lecture slides positively, while others criticize communication, Piazza responsiveness, or exam detail. The sample is small, so the page should not be treated as a definitive judgment.
+
+For course selection, this source is useful only as informal student sentiment for EECS 489 professor questions. It should be combined with the official course page and Reddit workload notes.

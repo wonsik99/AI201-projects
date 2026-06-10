@@ -1,0 +1,10 @@
+Title: Stella Yu Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/3097263
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Stella Yu in Computer Science at the University of Michigan. The page shows an overall quality score of 1.0 out of 5 based on 6 ratings, with 0% saying they would take again and a 4.3 level of difficulty.
+
+The visible ratings are for EECS 442. Student comments are strongly negative and repeatedly mention lecture clarity, assumed background knowledge, mandatory attendance, and difficulty understanding the course. Because the sample is small and anonymous, this should be framed as RMP student sentiment rather than a definitive fact.
+
+For course selection, this source is useful for a student asking about professor-review sentiment for EECS 442, especially when combined with the separate faculty-page source that answers who taught EECS 442 in Winter 2025.

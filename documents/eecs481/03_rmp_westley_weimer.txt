@@ -1,0 +1,10 @@
+Title: Westley Weimer Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/2277209
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Westley Weimer in Computer Science at the University of Michigan. The page shows an overall quality score of 4.7 out of 5 based on 26 ratings, with 89% saying they would take again and a 2.9 level of difficulty.
+
+The visible ratings include EECS 481. Student comments often describe him as enthusiastic, clear, prepared, and caring. Visible comments also mention participation, reading, writing-heavy exams, and self-driven assignments.
+
+For course selection, this source is useful for EECS 481 professor-review questions. It supports the idea that EECS 481 can be useful and practical, while still requiring reading, participation, and writing.

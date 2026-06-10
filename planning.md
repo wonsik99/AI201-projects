@@ -2,7 +2,7 @@
 
 ## Domain
 
-I chose University of Michigan CS/EECS course selection. My first idea was professor reviews, but those were hard to collect from in a reliable way, so I am focusing on course pages, syllabi, assignment pages, faculty teaching pages, and public r/uofm threads that still help students decide what class fits them.
+I chose University of Michigan CS/EECS course selection. My first idea was professor reviews, but those are too subjective to be the whole project, so I am focusing on course pages, syllabi, assignment pages, faculty teaching pages, public r/uofm threads, and some Rate My Professors aggregate notes that help with professor-specific questions.
 
 This is useful because the official course catalog is usually too short. It might say a course is "web systems" or "computer organization," but it does not quickly show what projects students build, what prerequisites matter, whether the class is project-heavy, or what kind of student the course is good for.
 
@@ -66,6 +66,26 @@ I saved the sources as cleaned `.txt` files in `documents/`, grouped by EECS num
 54. https://www.reddit.com/r/uofm/comments/1p8jka4/eecs_489_experience/
 55. https://www.reddit.com/r/uofm/comments/1aw8754/eecs493/
 56. https://www.reddit.com/r/uofm/comments/1fuh8y0/eecs_494_questions/
+57. https://www.ratemyprofessors.com/professor/2247525
+58. https://www.ratemyprofessors.com/professor/1765657
+59. https://www.ratemyprofessors.com/professor/2250514
+60. https://www.ratemyprofessors.com/professor/2048250
+61. https://www.ratemyprofessors.com/professor/2551383
+62. https://www.ratemyprofessors.com/professor/1836686
+63. https://www.ratemyprofessors.com/professor/2188979
+64. https://www.ratemyprofessors.com/professor/2527952
+65. https://www.ratemyprofessors.com/professor/2334421
+66. https://www.ratemyprofessors.com/professor/3007200
+67. https://www.ratemyprofessors.com/professor/1660233
+68. https://www.ratemyprofessors.com/professor/790758
+69. https://www.ratemyprofessors.com/professor/3097263
+70. https://www.ratemyprofessors.com/professor/1883916
+71. https://www.ratemyprofessors.com/professor/2198742
+72. https://www.ratemyprofessors.com/professor/1848865
+73. https://www.ratemyprofessors.com/professor/1622306
+74. https://www.ratemyprofessors.com/professor/2277209
+75. https://www.ratemyprofessors.com/professor/2052368
+76. https://www.ratemyprofessors.com/professor/2270545
 
 ## Chunking Strategy
 
@@ -99,7 +119,7 @@ Production tradeoff reflection: For this class project I chose MiniLM because it
 
 2. Retrieval might confuse prerequisite questions across courses. For example, "what background do I need" could match EECS 388 prerequisites even if the user meant EECS 445. Course-number metadata filtering would help.
 
-3. Reddit comments are useful because they are more unofficial, but they are also subjective. I should treat them as student anecdotes, not guaranteed facts.
+3. Reddit and Rate My Professors comments are useful because they are more unofficial, but they are also subjective. I should treat them as student anecdotes, not guaranteed facts.
 
 ## Architecture
 

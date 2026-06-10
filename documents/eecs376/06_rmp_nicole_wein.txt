@@ -1,0 +1,10 @@
+Title: Nicole Wein Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/3007200
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Nicole Wein in Computer Science at the University of Michigan. The page shows an overall quality score of 4.9 out of 5 based on 9 ratings, with 100% saying they would take again and a 3.0 level of difficulty.
+
+The visible ratings are for EECS 376. Student comments are mostly positive about clear examples, lecture notes, respect for students, and helpfulness. Some comments still flag EECS 376 as homework-heavy or conceptually difficult.
+
+For course selection, this source is useful for professor-specific EECS 376 questions. The small sample size and anonymous nature of RMP mean it should be treated as an informal signal.

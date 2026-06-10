@@ -1,0 +1,10 @@
+Title: Jonathan Beaumont Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/2527952
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Jonathan Beaumont in Electrical Engineering and Computer Science at the University of Michigan. The page shows an overall quality score of 4.8 out of 5 based on 46 ratings, with 98% saying they would take again and a 2.9 level of difficulty.
+
+The visible ratings are for EECS 370. Student comments repeatedly praise engaging lectures, useful recordings, clear structure, and care for students. Some visible comments still describe EECS 370 as dense, test-heavy, or difficult, especially around exams.
+
+For course selection, this source supports answering questions about Jonathan Beaumont as an EECS 370 instructor. It also helps separate instructor sentiment from course difficulty: students can like the professor and still find EECS 370 hard.

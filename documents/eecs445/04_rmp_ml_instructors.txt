@@ -1,0 +1,10 @@
+Title: Machine learning instructor Rate My Professors source notes
+Source URLs: https://www.ratemyprofessors.com/professor/1883916 ; https://www.ratemyprofessors.com/professor/2198742 ; https://www.ratemyprofessors.com/professor/1848865 ; https://www.ratemyprofessors.com/professor/1622306
+Source Type: Rate My Professors pages / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+These Rate My Professors pages are for machine learning, computer vision, and signal-processing related instructors connected to UMich or UMich EECS history: Jacob Abernethy, Jia Deng, Laura Balzano, and Honglak Lee.
+
+This source is weaker than the other RMP source notes because the visible ratings are not all specific to EECS 445. Jacob Abernethy's page has many ratings and visible comments about clear, rigorous explanations in related CS/math-style courses. Jia Deng's page includes computer vision and machine learning sentiment. Laura Balzano's page is in Electrical and Computer Engineering and has generally positive aggregate ratings. Honglak Lee's page has machine learning and deep learning related comments, with some visible feedback about dense or rushed lecture content.
+
+For course selection, this document should not be used to answer "who is the best EECS 445 professor" with high confidence. It is only useful as extra instructor-background sentiment around machine learning-adjacent faculty.

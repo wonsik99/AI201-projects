@@ -1,0 +1,10 @@
+Title: James Juett Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/2048250
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for James Juett in Computer Science at the University of Michigan. The page shows an overall quality score of 4.9 out of 5 based on 102 ratings, with 99% saying they would take again and a 2.8 level of difficulty.
+
+The visible ratings include EECS 280 and EECS 281. Repeated themes are strong asynchronous lectures, clear explanations, organized course content, and helpful office hours. The visible EECS 280 comments still say projects require starting early and practicing; the professor rating does not mean the course has no workload.
+
+For course selection, this source is a strong student-opinion signal for EECS 280 and some EECS 281 instructor questions. It is subjective and should be paired with official course project descriptions.

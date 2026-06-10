@@ -1,0 +1,10 @@
+Title: Alex Halderman Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/1660233
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Alex Halderman in Computer Science at the University of Michigan. The page shows an overall quality score of 3.9 out of 5 based on 9 ratings, with 58% saying they would take again and a 3.3 level of difficulty.
+
+The visible ratings include EECS 388 and related security courses. Student comments are mixed: some praise the security content, lecture quality, and engagement, while others mention organization or availability concerns. The sample is small, so this should be treated as limited student opinion.
+
+For course selection, this source is useful for questions about EECS 388 and computer security instructor experiences.

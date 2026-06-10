@@ -1,0 +1,10 @@
+Title: Harsha Madhyastha Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/2052368
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Harsha Madhyastha in Computer Science at the University of Michigan. The page shows an overall quality score of 4.9 out of 5 based on 18 ratings, with 100% saying they would take again and a 4.1 level of difficulty.
+
+The visible ratings include EECS 482 and EECS 491. Student comments describe him as caring, helpful in office hours, accessible, and strong at explaining difficult systems material. At the same time, the high difficulty score matches the reputation of systems courses as challenging.
+
+For course selection, this source is useful for professor-specific systems questions about EECS 482 or related systems courses. It should be paired with official workload and project information.

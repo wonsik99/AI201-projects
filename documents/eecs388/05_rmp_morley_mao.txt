@@ -1,0 +1,10 @@
+Title: Zhuoqing Morley Mao Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/790758
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Zhuoqing Morley Mao in Electrical Engineering at the University of Michigan. The page shows an overall quality score of 2.4 out of 5 based on 11 ratings, with 0% saying they would take again and a 3.1 level of difficulty.
+
+The visible ratings include EECS 388, EECS 489, and EECS 589. Student comments are mixed across years: some older comments are positive about knowledge and course content, while other comments are strongly negative about communication, clarity, or student support.
+
+For course selection, this source should be used carefully. It can provide a student-opinion signal for EECS 388 or EECS 489 instructor questions, but it is anonymous, subjective, and based on a small number of ratings.

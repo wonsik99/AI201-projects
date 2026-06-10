@@ -1,0 +1,10 @@
+Title: David Paoletti Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/1836686
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for David Paoletti in Computer Science at the University of Michigan. The page shows an overall quality score of 4.8 out of 5 based on 96 ratings, with 99% saying they would take again and a 3.6 level of difficulty.
+
+The visible ratings are mainly for EECS 281. Repeated themes are clear lectures, helpful office hours, accessible explanations, and strong support for projects. At the same time, visible comments still describe EECS 281 projects, weekly assignments, and exams as challenging or time-consuming.
+
+For course selection, this source is useful when a student asks about EECS 281 instructor support. It should not be used to claim EECS 281 is easy; the reviews often separate positive teaching from heavy course difficulty.

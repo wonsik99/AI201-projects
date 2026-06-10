@@ -1,0 +1,10 @@
+Title: Harrison Davis Rate My Professors source notes
+Source URL: https://www.ratemyprofessors.com/professor/2334421
+Source Type: Rate My Professors page / cleaned aggregate notes
+Date Collected: 2026-06-10
+
+This Rate My Professors page is for Harrison Davis in Computer Science at the University of Michigan. The page shows an overall quality score of 4.5 out of 5 based on 18 ratings, with 95% saying they would take again and a 3.4 level of difficulty.
+
+The visible ratings are for EECS 370. Student comments describe clear explanations, engaging lectures, helpful answers to questions, and useful examples. The page is older, so it is best used as historical student opinion rather than current section advice.
+
+For course selection, this source is useful when a student asks about past EECS 370 instructors or wants informal instructor sentiment.
