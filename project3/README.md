@@ -245,17 +245,3 @@ The gap between my taxonomy and the model's behavior suggests the labels are con
 2. **Failure-pattern review:** I pasted misclassified test examples into an LLM and asked for recurring themes. I accepted patterns about meme templates and short-post ambiguity, but rejected the suggestion that most errors were simply "labeling inconsistency" because manual review showed consistent rules applied to genuinely ambiguous comments.
 
 3. **Annotation assistance:** I did not auto-label the final dataset with AI. All 200 labels were assigned manually using the rules in `planning.md`.
-
-## Project Status
-
-Completed:
-
-- Community choice, taxonomy, and data collection
-- 200-example balanced labeled CSV with source URLs
-- Groq zero-shot baseline on the locked test set
-- DistilBERT fine-tuning in Colab
-- Evaluation report, confusion matrix, and exported results in `outputs/`
-
-Remaining for submission:
-
-- Record the 3–5 minute demo video
