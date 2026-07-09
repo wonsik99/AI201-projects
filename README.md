@@ -11,6 +11,7 @@ live in a separate repo: [`codepath-ai201`](https://github.com/wonsik99/codepath
 | 2 | [FitFindr](./project2) | Outfit-recommendation agent over secondhand clothing listings and a user wardrobe |
 | 3 | [TakeMeter](./project3) | Fine-tuned classifier for r/soccer discourse quality and comment type |
 | 4 | [Provenance Guard](./project4) | Backend attribution system for distinguishing human-written and AI-generated creative text |
+| 5 | [Mixtape Bug Hunt](./project5) | Flask social-music app bug hunt — find and fix service-layer bugs with RCA docs |
 
 ## How to run (each project)
 
